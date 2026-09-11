@@ -39,6 +39,32 @@ jobs:
       - run: bundle exec rake
       - run: bundle exec rake differential
 
+  darwin-x86:
+    name: Ruby 3.4 / macos-15-intel
+    runs-on: macos-15-intel
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      - run: bundle exec rake
+      - run: bundle exec rake differential
+
+  darwin-arm:
+    name: Ruby 3.4 / macos-latest
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      - run: bundle exec rake
+      - run: bundle exec rake differential
+
   gem-install:
     name: Install built gem / Ubuntu 3.4
     runs-on: ubuntu-latest

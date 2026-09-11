@@ -1,0 +1,173 @@
+# First publish: https://rubygems.org/profile/oidc/pending_trusted_publishers
+# Gem name: tzf2
+# Repository owner: joseph-lozano
+# Repository name: tzf-2-rb
+# Workflow filename: release.yml
+# Environment: (leave blank)
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Push gems to RubyGems.org and tag the version
+        type: boolean
+        default: false
+
+jobs:
+  native_gem:
+    name: Build ${{ matrix.platform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - x86_64-linux
+          - aarch64-linux
+          - x86_64-darwin
+          - arm64-darwin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oxidize-rb/actions/setup-ruby-and-rust@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+          cargo-cache: true
+          cargo-vendor: true
+          cache-version: v1-${{ matrix.platform }}
+      - name: Cross-compile native gem
+        run: >
+          bundle exec rb-sys-dock
+          --platform ${{ matrix.platform }}
+          --ruby-versions "3.2,3.3,3.4,4.0"
+          --mount-toolchains
+          --build
+      - uses: actions/upload-artifact@v7
+        with:
+          name: gem-${{ matrix.platform }}
+          path: pkg/*-${{ matrix.platform }}.gem
+          if-no-files-found: error
+
+  verify:
+    name: Install ${{ matrix.platform }} / Ruby ${{ matrix.ruby }}
+    needs: native_gem
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: ["3.4", "4.0"]
+        platform:
+          - x86_64-linux
+          - aarch64-linux
+          - x86_64-darwin
+          - arm64-darwin
+        include:
+          - platform: x86_64-linux
+            os: ubuntu-latest
+          - platform: aarch64-linux
+            os: ubuntu-24.04-arm
+          - platform: x86_64-darwin
+            os: macos-15-intel
+          - platform: arm64-darwin
+            os: macos-latest
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: gem-${{ matrix.platform }}
+          path: pkg
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - name: Install precompiled gem and look up New York
+        run: |
+          gem=$(ls pkg/*.gem)
+          gem install --local --verbose "$gem"
+          ruby -e 'require "tzf2"; abort "wrong zone" unless TZF.tz_name(40.7128, -74.0060) == "America/New_York"'
+
+  publish:
+    name: Push gem to RubyGems.org
+    needs: [native_gem, verify]
+    if: ${{ inputs.publish }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+      - name: Record version
+        run: |
+          version=$(ruby -e 'require_relative "lib/tzf2/version"; puts TZF::VERSION')
+          echo "APP_VERSION=$version" >> "$GITHUB_ENV"
+      - uses: actions/download-artifact@v8
+        with:
+          path: artifacts
+          pattern: gem-*
+          merge-multiple: false
+      - name: Collect and assert gems
+        run: |
+          set -euo pipefail
+          version="$APP_VERSION"
+          platforms=(x86_64-linux aarch64-linux x86_64-darwin arm64-darwin)
+          mkdir -p pkg
+          find artifacts -name "*.gem" -exec mv {} pkg/ \;
+          gem build tzf2.gemspec
+          mv "tzf2-${version}.gem" pkg/
+
+          missing=0
+          for platform in "${platforms[@]}"; do
+            gem="pkg/tzf2-${version}-${platform}.gem"
+            if [[ ! -f "$gem" ]]; then
+              echo "missing $gem" >&2
+              missing=1
+            fi
+          done
+          if [[ ! -f "pkg/tzf2-${version}.gem" ]]; then
+            echo "missing pkg/tzf2-${version}.gem" >&2
+            missing=1
+          fi
+          if [[ "$missing" -ne 0 ]]; then
+            ls -la pkg artifacts || true
+            exit 1
+          fi
+      - uses: rubygems/configure-rubygems-credentials@v2
+      - name: Push platforms then source
+        run: |
+          set -euo pipefail
+          version="$APP_VERSION"
+          platforms=(x86_64-linux aarch64-linux x86_64-darwin arm64-darwin)
+
+          push_or_skip() {
+            local gemfile="$1"
+            local output
+            local status
+            set +e
+            output=$(gem push "$gemfile" 2>&1)
+            status=$?
+            set -e
+            printf '%s\n' "$output"
+            if [[ "$status" -eq 0 ]]; then
+              return 0
+            fi
+            if printf '%s\n' "$output" | grep -qiE 'already been pushed|Repushing of gem versions is not allowed'; then
+              echo "already on RubyGems: $gemfile"
+              return 0
+            fi
+            return "$status"
+          }
+
+          for platform in "${platforms[@]}"; do
+            push_or_skip "pkg/tzf2-${version}-${platform}.gem"
+          done
+          push_or_skip "pkg/tzf2-${version}.gem"
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: pkg/*.gem
+          commit: ${{ github.sha }}
+          generateReleaseNotes: true
+          skipIfReleaseExists: true
+          tag: v${{ env.APP_VERSION }}

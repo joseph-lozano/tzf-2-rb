@@ -6,11 +6,13 @@ This gem is a drop-in successor to [`tzf`](https://github.com/HarlemSquirrel/tzf
 
 ## Install
 
-You need Ruby 3.2 or newer (including 4.0), clang, and Rust 1.88 or newer. Install compiles the native extension from source.
+You need Ruby 3.2 or newer (including 4.0).
+
+Precompiled native gems ship for `x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, and `arm64-darwin`. Other platforms compile from source and need clang plus Rust 1.88 or newer.
 
 ```ruby
 # Gemfile
-gem "tzf2", github: "joseph-lozano/tzf-2-rb"
+gem "tzf2"
 ```
 
 Then run:
@@ -20,8 +22,6 @@ bundle install
 ```
 
 `require "tzf2"` and `require "tzf"` both load the `TZF` module.
-
-Do not push this gem to RubyGems until the owner authorizes a release.
 
 ## Usage
 
@@ -137,9 +137,9 @@ To go back to HarlemSquirrel's gem, restore `gem "tzf"` and `require "tzf"`. The
 
 ## Supported platforms
 
-CI compiles and tests Ruby 3.2, 3.3, 3.4, and 4.0 on Ubuntu, plus Ruby 3.4 on `ubuntu-24.04-arm`. macOS is supported at install time (compile from source) and is exercised on developer machines, not in CI.
+CI compiles and tests Ruby 3.2, 3.3, 3.4, and 4.0 on Ubuntu, plus Ruby 3.4 on `ubuntu-24.04-arm`, `macos-15-intel`, and `macos-latest`.
 
-Windows is not supported.
+Release builds precompiled gems for Linux x86_64, Linux ARM64, Intel Mac, and Apple Silicon. Windows is not supported.
 
 ## License
 

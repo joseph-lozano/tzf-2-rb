@@ -8,6 +8,7 @@ GEMSPEC = Gem::Specification.load("tzf2.gemspec")
 
 RbSys::ExtensionTask.new("tzf2", GEMSPEC) do |ext|
   ext.lib_dir = "lib/tzf2"
+  ext.cross_compile = true
   ext.cross_platform = %w[
     x86_64-linux
     aarch64-linux
