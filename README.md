@@ -10,7 +10,7 @@ You need Ruby 3.2 or newer (including 4.0), clang, and Rust 1.88 or newer. Insta
 
 ```ruby
 # Gemfile
-gem "tzf2", github: "joseph-lozano/tzf-2-rb"
+gem "tzf2"
 ```
 
 Then run:
@@ -19,9 +19,9 @@ Then run:
 bundle install
 ```
 
-`require "tzf2"` and `require "tzf"` both load the `TZF` module.
+This is a source gem. `bundle install` and `gem install tzf2` compile the native extension.
 
-Do not push this gem to RubyGems until the owner authorizes a release.
+`require "tzf2"` and `require "tzf"` both load the `TZF` module.
 
 ## Usage
 

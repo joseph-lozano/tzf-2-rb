@@ -12,5 +12,3 @@ Public API:
 - `TZF.engine_version`
 
 In-range points with no covering polygon raise `TZF::UncoveredCoordinateError`. The gem does not invent a fallback zone.
-
-Not published to RubyGems.
