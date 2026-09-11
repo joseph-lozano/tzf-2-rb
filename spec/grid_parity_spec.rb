@@ -2,7 +2,6 @@
 
 require "json"
 require "open3"
-require_relative "support/differential"
 
 RSpec.describe "Ruby and Rust grid parity" do
   BIN = File.expand_path("../target/release/grid_parity", __dir__)
