@@ -1,7 +1,205 @@
 locations:
+  nyc:
+    kind: land
+    lat: 40.74771675713742
+    lng: -73.99350390136448
+    tz_name: America/New_York
+    tz_names: [America/New_York]
+  denver:
+    kind: land
+    lat: 39.750506124958264
+    lng: -104.91830433871691
+    tz_name: America/Denver
+    tz_names: [America/Denver]
+  vancouver:
+    kind: land
+    lat: 49.47341252718892
+    lng: -123.05334825540935
+    tz_name: America/Vancouver
+    tz_names: [America/Vancouver]
+  honolulu:
+    kind: land
+    lat: 21.295364048327443
+    lng: -157.85099513355766
+    tz_name: Pacific/Honolulu
+    tz_names: [Pacific/Honolulu]
+  tokyo:
+    kind: land
+    lat: 36.21820150892758
+    lng: 139.56306579829197
+    tz_name: Asia/Tokyo
+    tz_names: [Asia/Tokyo]
+  singapore:
+    kind: land
+    lat: 1.3521
+    lng: 103.8198
+    tz_name: Asia/Singapore
+    tz_names: [Asia/Singapore]
+  sydney:
+    kind: land
+    lat: -33.8688
+    lng: 151.2093
+    tz_name: Australia/Sydney
+    tz_names: [Australia/Sydney]
+  london:
+    kind: land
+    lat: 51.56123375122209
+    lng: -0.15079162500107895
+    tz_name: Europe/London
+    tz_names: [Europe/London]
+  munich:
+    kind: land
+    lat: 48.29036993103675
+    lng: 11.613408440235888
+    tz_name: Europe/Berlin
+    tz_names: [Europe/Berlin]
+  rome:
+    kind: land
+    lat: 41.9038114880907
+    lng: 12.49478462156078
+    tz_name: Europe/Rome
+    tz_names: [Europe/Rome]
+  cairo:
+    kind: land
+    lat: 30.25993031990045
+    lng: 31.242136034112196
+    tz_name: Africa/Cairo
+    tz_names: [Africa/Cairo]
+  cape_town:
+    kind: land
+    lat: -33.9249
+    lng: 18.4241
+    tz_name: Africa/Johannesburg
+    tz_names: [Africa/Johannesburg]
+  lagos:
+    kind: land
+    lat: 9.736814673694083
+    lng: 7.732860259314992
+    tz_name: Africa/Lagos
+    tz_names: [Africa/Lagos]
+  reykjavik:
+    kind: land
+    lat: 64.95956409539485
+    lng: -17.36934883140202
+    tz_name: Atlantic/Reykjavik
+    tz_names: [Atlantic/Reykjavik]
+  bermuda:
+    kind: land
+    lat: 32.26669174802396
+    lng: -65.04326428488295
+    tz_name: Atlantic/Bermuda
+    tz_names: [Atlantic/Bermuda]
+  santarem:
+    kind: land
+    lat: -8.347585689571595
+    lng: -56.84294863543579
+    tz_name: America/Santarem
+    tz_names: [America/Santarem]
+  easter_island:
+    kind: land
+    lat: -27.11069740589065
+    lng: -109.3669685185801
+    tz_name: Pacific/Easter
+    tz_names: [Pacific/Easter]
+  auckland:
+    kind: land
+    lat: -43.67203571687707
+    lng: 171.16023358552044
+    tz_name: Pacific/Auckland
+    tz_names: [Pacific/Auckland]
+  st_francis_ks:
+    kind: land
+    lat: 39.82035288651037
+    lng: -101.8256829047708
+    tz_name: America/Chicago
+    tz_names: [America/Chicago]
+  weskan_ks:
+    kind: land
+    lat: 38.82518946320606
+    lng: -101.98519499134277
+    tz_name: America/Denver
+    tz_names: [America/Denver]
+  sachs_harbour:
+    kind: land
+    lat: 72.07920766309644
+    lng: -125.33769346109779
+    tz_name: America/Inuvik
+    tz_names: [America/Inuvik]
+  tibet:
+    kind: land
+    lat: 31.148437370669136
+    lng: 88.71960431222999
+    tz_name: Asia/Shanghai
+    tz_names: [Asia/Shanghai]
+  xinjiang_overlap:
+    kind: shared_boundary
+    lat: 44.04
+    lng: 87.416
+    tz_name: Asia/Shanghai
+    tz_names: [Asia/Shanghai, Asia/Urumqi]
+  rural_antarctica:
+    kind: polar
+    lat: -85.91222463600428
+    lng: 64.53482925964336
+    tz_name: Antarctica/Mawson
+    tz_names: [Antarctica/Mawson]
+  south_pole:
+    kind: polar
+    lat: -90.0
+    lng: 0.0
+    tz_name: Antarctica/McMurdo
+    tz_names: [Antarctica/McMurdo]
+  north_pole:
+    kind: polar
+    lat: 90.0
+    lng: 0.0
+    tz_name: Etc/GMT
+    tz_names: [Etc/GMT]
+  arctic_ocean:
+    kind: ocean
+    lat: 86.807722969671
+    lng: -178.41909254375486
+    tz_name: Etc/GMT+12
+    tz_names: [Etc/GMT+12]
   point_nemo:
     kind: ocean
     lat: -48.876667
     lng: -123.393333
     tz_name: Etc/GMT+8
     tz_names: [Etc/GMT+8]
+  mid_atlantic:
+    kind: ocean
+    lat: 0.0
+    lng: -30.0
+    tz_name: Etc/GMT+2
+    tz_names: [Etc/GMT+2]
+  indian_ocean:
+    kind: ocean
+    lat: -20.0
+    lng: 80.0
+    tz_name: Etc/GMT-5
+    tz_names: [Etc/GMT-5]
+  north_pacific:
+    kind: ocean
+    lat: 40.0
+    lng: -150.0
+    tz_name: Etc/GMT+10
+    tz_names: [Etc/GMT+10]
+  equator_greenwich:
+    kind: ocean
+    lat: 0.0
+    lng: 0.0
+    tz_name: Etc/GMT
+    tz_names: [Etc/GMT]
+  antimeridian_east:
+    kind: antimeridian
+    lat: 0.0
+    lng: 180.0
+    tz_name: Etc/GMT-12
+    tz_names: [Etc/GMT-12]
+  antimeridian_west:
+    kind: antimeridian
+    lat: 0.0
+    lng: -180.0
+    tz_name: Etc/GMT+12
+    tz_names: [Etc/GMT+12]

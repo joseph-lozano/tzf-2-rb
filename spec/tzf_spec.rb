@@ -27,23 +27,6 @@ RSpec.describe TZF do
   end
 
   describe ".tz_name" do
-    it "returns a land zone" do
-      expect(described_class.tz_name(40.7128, -74.0060)).to eq("America/New_York")
-    end
-
-    it "returns an open-ocean zone" do
-      expect(described_class.tz_name(0.0, 0.0)).to eq("Etc/GMT")
-    end
-
-    it "returns a polar zone" do
-      expect(described_class.tz_name(-90.0, 0.0)).to eq("Antarctica/McMurdo")
-    end
-
-    it "returns an antimeridian zone" do
-      expect(described_class.tz_name(0.0, 180.0)).to eq("Etc/GMT-12")
-      expect(described_class.tz_name(0.0, -180.0)).to eq("Etc/GMT+12")
-    end
-
     SpecLocations.all.each do |name, point|
       it "returns #{point.fetch('tz_name')} for #{name}" do
         expect(described_class.tz_name(point.fetch("lat"), point.fetch("lng")))
@@ -53,11 +36,6 @@ RSpec.describe TZF do
   end
 
   describe ".tz_names" do
-    it "returns every match on a shared border, sorted" do
-      expect(described_class.tz_names(44.04, 87.416))
-        .to eq(["Asia/Shanghai", "Asia/Urumqi"])
-    end
-
     SpecLocations.all.each do |name, point|
       it "returns #{point.fetch('tz_names').inspect} for #{name}" do
         expect(described_class.tz_names(point.fetch("lat"), point.fetch("lng")))

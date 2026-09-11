@@ -108,7 +108,7 @@ bundle exec rake
 bundle exec rake differential
 ```
 
-Specs cover land, ocean, polar, and antimeridian points, shared borders, latitude/longitude order, invalid input, and thread safety. Point Nemo is the named ocean regression.
+Specs cover major cities, ocean zones including Point Nemo, polar and antimeridian points, shared borders, latitude/longitude order, invalid input, and thread safety.
 
 The differential suite compares the current engine to `spec/fixtures/differential_baseline.json`. It reports timezone-id changes, UTC-offset changes at `2026-01-15T12:00:00Z`, and points that gained or lost coverage.
 

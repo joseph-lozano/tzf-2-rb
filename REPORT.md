@@ -18,7 +18,7 @@ A local `tzf2` gem that looks up IANA timezones from WGS84 coordinates with tzf-
 | `require "tzf"` drop-in | pass | `TZF.tz_name(40.7128, -74.0060)` returns `America/New_York` |
 | Engine version | pass | `TZF.engine_version` is `2.0.0`, matches `Cargo.lock` |
 | Data version | pass | `TZF.data_version` is `2026c` |
-| Ocean coverage | pass | Point Nemo `Etc/GMT+8`, equator `Etc/GMT` |
+| Ocean coverage | pass | Point Nemo `Etc/GMT+8`, equator `Etc/GMT`, mid-Atlantic `Etc/GMT+2` |
 | Shared border | pass | `44.04, 87.416` returns `Asia/Shanghai` and `Asia/Urumqi` |
 | Coordinate order | pass | swapped arguments do not return `America/New_York` |
 | Invalid input | pass | non-numeric, NaN, Inf, and out-of-range raise `InvalidCoordinatesError` |
@@ -31,8 +31,8 @@ Not published to RubyGems.
 
 - Source gem `tzf2` 0.1.0
 - Native crate `ext/tzf2` linked against tzf-rs 2.0.0 and tzf-dist `0.0.2026-c-tzb1`
-- `spec/fixtures/locations.yml` Point Nemo regression
-- `spec/fixtures/differential_baseline.json` (Point Nemo plus a 10-degree global grid)
+- `spec/fixtures/locations.yml` cities, ocean, polar, and antimeridian points
+- `spec/fixtures/differential_baseline.json` (those points plus a 10-degree global grid)
 - GitHub Actions matrix in `.github/workflows/ci.yml`
 
 ## Measured characteristics

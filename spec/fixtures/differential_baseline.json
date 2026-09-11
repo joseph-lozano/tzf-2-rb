@@ -4,6 +4,277 @@
   "instant": "2026-01-15T12:00:00Z",
   "grid_step": 10,
   "points": {
+    "named:nyc": {
+      "lat": 40.74771675713742,
+      "lng": -73.99350390136448,
+      "tz_name": "America/New_York",
+      "tz_names": [
+        "America/New_York"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "named:denver": {
+      "lat": 39.750506124958264,
+      "lng": -104.91830433871691,
+      "tz_name": "America/Denver",
+      "tz_names": [
+        "America/Denver"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "named:vancouver": {
+      "lat": 49.47341252718892,
+      "lng": -123.05334825540935,
+      "tz_name": "America/Vancouver",
+      "tz_names": [
+        "America/Vancouver"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "named:honolulu": {
+      "lat": 21.295364048327443,
+      "lng": -157.85099513355766,
+      "tz_name": "Pacific/Honolulu",
+      "tz_names": [
+        "Pacific/Honolulu"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "named:tokyo": {
+      "lat": 36.21820150892758,
+      "lng": 139.56306579829197,
+      "tz_name": "Asia/Tokyo",
+      "tz_names": [
+        "Asia/Tokyo"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "named:singapore": {
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "tz_name": "Asia/Singapore",
+      "tz_names": [
+        "Asia/Singapore"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "named:sydney": {
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "tz_name": "Australia/Sydney",
+      "tz_names": [
+        "Australia/Sydney"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "named:london": {
+      "lat": 51.56123375122209,
+      "lng": -0.15079162500107895,
+      "tz_name": "Europe/London",
+      "tz_names": [
+        "Europe/London"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "named:munich": {
+      "lat": 48.29036993103675,
+      "lng": 11.613408440235888,
+      "tz_name": "Europe/Berlin",
+      "tz_names": [
+        "Europe/Berlin"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "named:rome": {
+      "lat": 41.9038114880907,
+      "lng": 12.49478462156078,
+      "tz_name": "Europe/Rome",
+      "tz_names": [
+        "Europe/Rome"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "named:cairo": {
+      "lat": 30.25993031990045,
+      "lng": 31.242136034112196,
+      "tz_name": "Africa/Cairo",
+      "tz_names": [
+        "Africa/Cairo"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "named:cape_town": {
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "tz_name": "Africa/Johannesburg",
+      "tz_names": [
+        "Africa/Johannesburg"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "named:lagos": {
+      "lat": 9.736814673694083,
+      "lng": 7.732860259314992,
+      "tz_name": "Africa/Lagos",
+      "tz_names": [
+        "Africa/Lagos"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "named:reykjavik": {
+      "lat": 64.95956409539485,
+      "lng": -17.36934883140202,
+      "tz_name": "Atlantic/Reykjavik",
+      "tz_names": [
+        "Atlantic/Reykjavik"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "named:bermuda": {
+      "lat": 32.26669174802396,
+      "lng": -65.04326428488295,
+      "tz_name": "Atlantic/Bermuda",
+      "tz_names": [
+        "Atlantic/Bermuda"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "named:santarem": {
+      "lat": -8.347585689571595,
+      "lng": -56.84294863543579,
+      "tz_name": "America/Santarem",
+      "tz_names": [
+        "America/Santarem"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "named:easter_island": {
+      "lat": -27.11069740589065,
+      "lng": -109.3669685185801,
+      "tz_name": "Pacific/Easter",
+      "tz_names": [
+        "Pacific/Easter"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "named:auckland": {
+      "lat": -43.67203571687707,
+      "lng": 171.16023358552044,
+      "tz_name": "Pacific/Auckland",
+      "tz_names": [
+        "Pacific/Auckland"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "named:st_francis_ks": {
+      "lat": 39.82035288651037,
+      "lng": -101.8256829047708,
+      "tz_name": "America/Chicago",
+      "tz_names": [
+        "America/Chicago"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "named:weskan_ks": {
+      "lat": 38.82518946320606,
+      "lng": -101.98519499134277,
+      "tz_name": "America/Denver",
+      "tz_names": [
+        "America/Denver"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "named:sachs_harbour": {
+      "lat": 72.07920766309644,
+      "lng": -125.33769346109779,
+      "tz_name": "America/Inuvik",
+      "tz_names": [
+        "America/Inuvik"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "named:tibet": {
+      "lat": 31.148437370669136,
+      "lng": 88.71960431222999,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "named:xinjiang_overlap": {
+      "lat": 44.04,
+      "lng": 87.416,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai",
+        "Asia/Urumqi"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "named:rural_antarctica": {
+      "lat": -85.91222463600428,
+      "lng": 64.53482925964336,
+      "tz_name": "Antarctica/Mawson",
+      "tz_names": [
+        "Antarctica/Mawson"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "named:south_pole": {
+      "lat": -90.0,
+      "lng": 0.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "named:north_pole": {
+      "lat": 90.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "named:arctic_ocean": {
+      "lat": 86.807722969671,
+      "lng": -178.41909254375486,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
     "named:point_nemo": {
       "lat": -48.876667,
       "lng": -123.393333,
@@ -12,6 +283,66 @@
         "Etc/GMT+8"
       ],
       "utc_offset": -28800,
+      "covered": true
+    },
+    "named:mid_atlantic": {
+      "lat": 0.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "named:indian_ocean": {
+      "lat": -20.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "named:north_pacific": {
+      "lat": 40.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "named:equator_greenwich": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "named:antimeridian_east": {
+      "lat": 0.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "named:antimeridian_west": {
+      "lat": 0.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
       "covered": true
     },
     "grid:-90,-180": {
