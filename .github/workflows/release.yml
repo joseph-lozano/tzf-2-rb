@@ -48,12 +48,18 @@ jobs:
           path: pkg/*-${{ matrix.platform }}.gem
 
   verify:
-    name: Install ${{ matrix.platform }} / ${{ matrix.os }}
+    name: Install ${{ matrix.platform }} / Ruby ${{ matrix.ruby }}
     needs: native_gem
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
+        ruby: ["3.4", "4.0"]
+        platform:
+          - x86_64-linux
+          - aarch64-linux
+          - x86_64-darwin
+          - arm64-darwin
         include:
           - platform: x86_64-linux
             os: ubuntu-latest
@@ -70,7 +76,7 @@ jobs:
           path: pkg
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4"
+          ruby-version: ${{ matrix.ruby }}
       - name: Install precompiled gem and look up New York
         run: |
           gem=$(ls pkg/*.gem)
