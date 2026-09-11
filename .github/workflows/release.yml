@@ -134,7 +134,7 @@ jobs:
             ls -la pkg artifacts || true
             exit 1
           fi
-      - uses: rubygems/configure-rubygems-credentials@v2
+      - uses: rubygems/configure-rubygems-credentials@v2.1.0
       - name: Push platforms then source
         run: |
           set -euo pipefail
