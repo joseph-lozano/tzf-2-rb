@@ -12,7 +12,7 @@ on:
       publish:
         description: Push gems to RubyGems.org and tag the version
         type: boolean
-        default: true
+        default: false
 
 jobs:
   native_gem:
@@ -46,6 +46,7 @@ jobs:
         with:
           name: gem-${{ matrix.platform }}
           path: pkg/*-${{ matrix.platform }}.gem
+          if-no-files-found: error
 
   verify:
     name: Install ${{ matrix.platform }} / Ruby ${{ matrix.ruby }}
@@ -98,28 +99,75 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4"
-          bundler-cache: true
       - name: Record version
         run: |
           version=$(ruby -e 'require_relative "lib/tzf2/version"; puts TZF::VERSION')
           echo "APP_VERSION=$version" >> "$GITHUB_ENV"
-      - uses: rubygems/release-gem@v1
       - uses: actions/download-artifact@v8
         with:
           path: artifacts
           pattern: gem-*
-      - name: Push platform gems
+          merge-multiple: false
+      - name: Collect and assert gems
         run: |
           set -euo pipefail
+          version="$APP_VERSION"
+          platforms=(x86_64-linux aarch64-linux x86_64-darwin arm64-darwin)
           mkdir -p pkg
           find artifacts -name "*.gem" -exec mv {} pkg/ \;
-          shopt -s nullglob
-          for gem in pkg/tzf2-*-*.gem; do
-            gem push "$gem"
+          gem build tzf2.gemspec
+          mv "tzf2-${version}.gem" pkg/
+
+          missing=0
+          for platform in "${platforms[@]}"; do
+            gem="pkg/tzf2-${version}-${platform}.gem"
+            if [[ ! -f "$gem" ]]; then
+              echo "missing $gem" >&2
+              missing=1
+            fi
           done
+          if [[ ! -f "pkg/tzf2-${version}.gem" ]]; then
+            echo "missing pkg/tzf2-${version}.gem" >&2
+            missing=1
+          fi
+          if [[ "$missing" -ne 0 ]]; then
+            ls -la pkg artifacts || true
+            exit 1
+          fi
+      - uses: rubygems/configure-rubygems-credentials@v2
+      - name: Push platforms then source
+        run: |
+          set -euo pipefail
+          version="$APP_VERSION"
+          platforms=(x86_64-linux aarch64-linux x86_64-darwin arm64-darwin)
+
+          push_or_skip() {
+            local gemfile="$1"
+            local output
+            local status
+            set +e
+            output=$(gem push "$gemfile" 2>&1)
+            status=$?
+            set -e
+            printf '%s\n' "$output"
+            if [[ "$status" -eq 0 ]]; then
+              return 0
+            fi
+            if printf '%s\n' "$output" | grep -qiE 'already been pushed|Repushing of gem versions is not allowed'; then
+              echo "already on RubyGems: $gemfile"
+              return 0
+            fi
+            return "$status"
+          }
+
+          for platform in "${platforms[@]}"; do
+            push_or_skip "pkg/tzf2-${version}-${platform}.gem"
+          done
+          push_or_skip "pkg/tzf2-${version}.gem"
       - uses: ncipollo/release-action@v1
         with:
           artifacts: pkg/*.gem
+          commit: ${{ github.sha }}
           generateReleaseNotes: true
           skipIfReleaseExists: true
           tag: v${{ env.APP_VERSION }}
