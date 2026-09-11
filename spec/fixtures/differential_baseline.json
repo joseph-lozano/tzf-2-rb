@@ -1,0 +1,7068 @@
+{
+  "engine_version": "2.0.0",
+  "data_version": "2026c",
+  "instant": "2026-01-15T12:00:00Z",
+  "grid_step": 10,
+  "points": {
+    "named:point_nemo": {
+      "lat": -48.876667,
+      "lng": -123.393333,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-90,-180": {
+      "lat": -90.0,
+      "lng": -180.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-170": {
+      "lat": -90.0,
+      "lng": -170.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-160": {
+      "lat": -90.0,
+      "lng": -160.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-150": {
+      "lat": -90.0,
+      "lng": -150.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-140": {
+      "lat": -90.0,
+      "lng": -140.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-130": {
+      "lat": -90.0,
+      "lng": -130.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-120": {
+      "lat": -90.0,
+      "lng": -120.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-110": {
+      "lat": -90.0,
+      "lng": -110.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-100": {
+      "lat": -90.0,
+      "lng": -100.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-90": {
+      "lat": -90.0,
+      "lng": -90.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-80": {
+      "lat": -90.0,
+      "lng": -80.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-70": {
+      "lat": -90.0,
+      "lng": -70.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-60": {
+      "lat": -90.0,
+      "lng": -60.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-50": {
+      "lat": -90.0,
+      "lng": -50.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-40": {
+      "lat": -90.0,
+      "lng": -40.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-30": {
+      "lat": -90.0,
+      "lng": -30.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-20": {
+      "lat": -90.0,
+      "lng": -20.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,-10": {
+      "lat": -90.0,
+      "lng": -10.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,0": {
+      "lat": -90.0,
+      "lng": 0.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,10": {
+      "lat": -90.0,
+      "lng": 10.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,20": {
+      "lat": -90.0,
+      "lng": 20.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,30": {
+      "lat": -90.0,
+      "lng": 30.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,40": {
+      "lat": -90.0,
+      "lng": 40.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,50": {
+      "lat": -90.0,
+      "lng": 50.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,60": {
+      "lat": -90.0,
+      "lng": 60.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,70": {
+      "lat": -90.0,
+      "lng": 70.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,80": {
+      "lat": -90.0,
+      "lng": 80.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,90": {
+      "lat": -90.0,
+      "lng": 90.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,100": {
+      "lat": -90.0,
+      "lng": 100.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,110": {
+      "lat": -90.0,
+      "lng": 110.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,120": {
+      "lat": -90.0,
+      "lng": 120.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,130": {
+      "lat": -90.0,
+      "lng": 130.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,140": {
+      "lat": -90.0,
+      "lng": 140.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,150": {
+      "lat": -90.0,
+      "lng": 150.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,160": {
+      "lat": -90.0,
+      "lng": 160.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,170": {
+      "lat": -90.0,
+      "lng": 170.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-90,180": {
+      "lat": -90.0,
+      "lng": 180.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,-180": {
+      "lat": -80.0,
+      "lng": -180.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,-170": {
+      "lat": -80.0,
+      "lng": -170.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,-160": {
+      "lat": -80.0,
+      "lng": -160.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,-150": {
+      "lat": -80.0,
+      "lng": -150.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo",
+        "Etc/GMT+10"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,-140": {
+      "lat": -80.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-80,-130": {
+      "lat": -80.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-80,-120": {
+      "lat": -80.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-80,-110": {
+      "lat": -80.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-80,-100": {
+      "lat": -80.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-80,-90": {
+      "lat": -80.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-80,-80": {
+      "lat": -80.0,
+      "lng": -80.0,
+      "tz_name": "Antarctica/Rothera",
+      "tz_names": [
+        "Antarctica/Rothera",
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-70": {
+      "lat": -80.0,
+      "lng": -70.0,
+      "tz_name": "Antarctica/Rothera",
+      "tz_names": [
+        "Antarctica/Rothera"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-60": {
+      "lat": -80.0,
+      "lng": -60.0,
+      "tz_name": "America/Argentina/Ushuaia",
+      "tz_names": [
+        "America/Argentina/Ushuaia"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-50": {
+      "lat": -80.0,
+      "lng": -50.0,
+      "tz_name": "America/Argentina/Ushuaia",
+      "tz_names": [
+        "America/Argentina/Ushuaia"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-40": {
+      "lat": -80.0,
+      "lng": -40.0,
+      "tz_name": "America/Argentina/Ushuaia",
+      "tz_names": [
+        "America/Argentina/Ushuaia"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-30": {
+      "lat": -80.0,
+      "lng": -30.0,
+      "tz_name": "Antarctica/Rothera",
+      "tz_names": [
+        "Antarctica/Rothera"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-20": {
+      "lat": -80.0,
+      "lng": -20.0,
+      "tz_name": "Antarctica/Rothera",
+      "tz_names": [
+        "Antarctica/Rothera"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-80,-10": {
+      "lat": -80.0,
+      "lng": -10.0,
+      "tz_name": "Etc/UTC",
+      "tz_names": [
+        "Etc/UTC"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-80,0": {
+      "lat": -80.0,
+      "lng": 0.0,
+      "tz_name": "Africa/Johannesburg",
+      "tz_names": [
+        "Africa/Johannesburg",
+        "Antarctica/Troll"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-80,10": {
+      "lat": -80.0,
+      "lng": 10.0,
+      "tz_name": "Antarctica/Troll",
+      "tz_names": [
+        "Antarctica/Troll"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-80,20": {
+      "lat": -80.0,
+      "lng": 20.0,
+      "tz_name": "Antarctica/Troll",
+      "tz_names": [
+        "Antarctica/Troll"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-80,30": {
+      "lat": -80.0,
+      "lng": 30.0,
+      "tz_name": "Antarctica/Syowa",
+      "tz_names": [
+        "Antarctica/Syowa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-80,40": {
+      "lat": -80.0,
+      "lng": 40.0,
+      "tz_name": "Antarctica/Syowa",
+      "tz_names": [
+        "Antarctica/Syowa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-80,50": {
+      "lat": -80.0,
+      "lng": 50.0,
+      "tz_name": "Antarctica/Syowa",
+      "tz_names": [
+        "Antarctica/Syowa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-80,60": {
+      "lat": -80.0,
+      "lng": 60.0,
+      "tz_name": "Antarctica/Mawson",
+      "tz_names": [
+        "Antarctica/Mawson"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-80,70": {
+      "lat": -80.0,
+      "lng": 70.0,
+      "tz_name": "Antarctica/Mawson",
+      "tz_names": [
+        "Antarctica/Mawson"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-80,80": {
+      "lat": -80.0,
+      "lng": 80.0,
+      "tz_name": "Antarctica/Davis",
+      "tz_names": [
+        "Antarctica/Davis"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-80,90": {
+      "lat": -80.0,
+      "lng": 90.0,
+      "tz_name": "Antarctica/Vostok",
+      "tz_names": [
+        "Antarctica/Vostok"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-80,100": {
+      "lat": -80.0,
+      "lng": 100.0,
+      "tz_name": "Antarctica/Vostok",
+      "tz_names": [
+        "Antarctica/Vostok"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-80,110": {
+      "lat": -80.0,
+      "lng": 110.0,
+      "tz_name": "Antarctica/Vostok",
+      "tz_names": [
+        "Antarctica/Vostok"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-80,120": {
+      "lat": -80.0,
+      "lng": 120.0,
+      "tz_name": "Australia/Perth",
+      "tz_names": [
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-80,130": {
+      "lat": -80.0,
+      "lng": 130.0,
+      "tz_name": "Australia/Perth",
+      "tz_names": [
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-80,140": {
+      "lat": -80.0,
+      "lng": 140.0,
+      "tz_name": "Australia/Perth",
+      "tz_names": [
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-80,150": {
+      "lat": -80.0,
+      "lng": 150.0,
+      "tz_name": "Australia/Perth",
+      "tz_names": [
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-80,160": {
+      "lat": -80.0,
+      "lng": 160.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo",
+        "Australia/Perth"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,170": {
+      "lat": -80.0,
+      "lng": 170.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-80,180": {
+      "lat": -80.0,
+      "lng": 180.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-70,-180": {
+      "lat": -70.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-70,-170": {
+      "lat": -70.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-70,-160": {
+      "lat": -70.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-70,-150": {
+      "lat": -70.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:-70,-140": {
+      "lat": -70.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-70,-130": {
+      "lat": -70.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-70,-120": {
+      "lat": -70.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-70,-110": {
+      "lat": -70.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-70,-100": {
+      "lat": -70.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-70,-90": {
+      "lat": -70.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-70,-80": {
+      "lat": -70.0,
+      "lng": -80.0,
+      "tz_name": "Antarctica/Rothera",
+      "tz_names": [
+        "Antarctica/Rothera",
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-70,-70": {
+      "lat": -70.0,
+      "lng": -70.0,
+      "tz_name": "Antarctica/Rothera",
+      "tz_names": [
+        "Antarctica/Rothera"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-70,-60": {
+      "lat": -70.0,
+      "lng": -60.0,
+      "tz_name": "America/Argentina/Ushuaia",
+      "tz_names": [
+        "America/Argentina/Ushuaia"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-70,-50": {
+      "lat": -70.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-70,-40": {
+      "lat": -70.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-70,-30": {
+      "lat": -70.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-70,-20": {
+      "lat": -70.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-70,-10": {
+      "lat": -70.0,
+      "lng": -10.0,
+      "tz_name": "Etc/UTC",
+      "tz_names": [
+        "Etc/UTC"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-70,0": {
+      "lat": -70.0,
+      "lng": 0.0,
+      "tz_name": "Africa/Johannesburg",
+      "tz_names": [
+        "Africa/Johannesburg",
+        "Antarctica/Troll"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-70,10": {
+      "lat": -70.0,
+      "lng": 10.0,
+      "tz_name": "Antarctica/Troll",
+      "tz_names": [
+        "Antarctica/Troll"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-70,20": {
+      "lat": -70.0,
+      "lng": 20.0,
+      "tz_name": "Antarctica/Troll",
+      "tz_names": [
+        "Antarctica/Troll"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-70,30": {
+      "lat": -70.0,
+      "lng": 30.0,
+      "tz_name": "Antarctica/Syowa",
+      "tz_names": [
+        "Antarctica/Syowa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-70,40": {
+      "lat": -70.0,
+      "lng": 40.0,
+      "tz_name": "Antarctica/Syowa",
+      "tz_names": [
+        "Antarctica/Syowa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-70,50": {
+      "lat": -70.0,
+      "lng": 50.0,
+      "tz_name": "Antarctica/Syowa",
+      "tz_names": [
+        "Antarctica/Syowa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-70,60": {
+      "lat": -70.0,
+      "lng": 60.0,
+      "tz_name": "Antarctica/Mawson",
+      "tz_names": [
+        "Antarctica/Mawson"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-70,70": {
+      "lat": -70.0,
+      "lng": 70.0,
+      "tz_name": "Antarctica/Mawson",
+      "tz_names": [
+        "Antarctica/Mawson"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-70,80": {
+      "lat": -70.0,
+      "lng": 80.0,
+      "tz_name": "Antarctica/Davis",
+      "tz_names": [
+        "Antarctica/Davis"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-70,90": {
+      "lat": -70.0,
+      "lng": 90.0,
+      "tz_name": "Antarctica/Vostok",
+      "tz_names": [
+        "Antarctica/Vostok"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-70,100": {
+      "lat": -70.0,
+      "lng": 100.0,
+      "tz_name": "Antarctica/Casey",
+      "tz_names": [
+        "Antarctica/Casey",
+        "Antarctica/Vostok"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-70,110": {
+      "lat": -70.0,
+      "lng": 110.0,
+      "tz_name": "Antarctica/Casey",
+      "tz_names": [
+        "Antarctica/Casey",
+        "Antarctica/Vostok"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-70,120": {
+      "lat": -70.0,
+      "lng": 120.0,
+      "tz_name": "Antarctica/Casey",
+      "tz_names": [
+        "Antarctica/Casey",
+        "Antarctica/DumontDUrville",
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-70,130": {
+      "lat": -70.0,
+      "lng": 130.0,
+      "tz_name": "Antarctica/DumontDUrville",
+      "tz_names": [
+        "Antarctica/DumontDUrville",
+        "Australia/Perth"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-70,140": {
+      "lat": -70.0,
+      "lng": 140.0,
+      "tz_name": "Antarctica/DumontDUrville",
+      "tz_names": [
+        "Antarctica/DumontDUrville",
+        "Australia/Perth"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-70,150": {
+      "lat": -70.0,
+      "lng": 150.0,
+      "tz_name": "Antarctica/DumontDUrville",
+      "tz_names": [
+        "Antarctica/DumontDUrville",
+        "Australia/Perth"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-70,160": {
+      "lat": -70.0,
+      "lng": 160.0,
+      "tz_name": "Antarctica/DumontDUrville",
+      "tz_names": [
+        "Antarctica/DumontDUrville",
+        "Antarctica/McMurdo",
+        "Australia/Perth"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-70,170": {
+      "lat": -70.0,
+      "lng": 170.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-70,180": {
+      "lat": -70.0,
+      "lng": 180.0,
+      "tz_name": "Antarctica/McMurdo",
+      "tz_names": [
+        "Antarctica/McMurdo",
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 46800,
+      "covered": true
+    },
+    "grid:-60,-180": {
+      "lat": -60.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-60,-170": {
+      "lat": -60.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-60,-160": {
+      "lat": -60.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-60,-150": {
+      "lat": -60.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:-60,-140": {
+      "lat": -60.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-60,-130": {
+      "lat": -60.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-60,-120": {
+      "lat": -60.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-60,-110": {
+      "lat": -60.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-60,-100": {
+      "lat": -60.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-60,-90": {
+      "lat": -60.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-60,-80": {
+      "lat": -60.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-60,-70": {
+      "lat": -60.0,
+      "lng": -70.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-60,-60": {
+      "lat": -60.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:-60,-50": {
+      "lat": -60.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-60,-40": {
+      "lat": -60.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-60,-30": {
+      "lat": -60.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-60,-20": {
+      "lat": -60.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-60,-10": {
+      "lat": -60.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-60,0": {
+      "lat": -60.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-60,10": {
+      "lat": -60.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-60,20": {
+      "lat": -60.0,
+      "lng": 20.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-60,30": {
+      "lat": -60.0,
+      "lng": 30.0,
+      "tz_name": "Etc/GMT-2",
+      "tz_names": [
+        "Etc/GMT-2"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-60,40": {
+      "lat": -60.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-60,50": {
+      "lat": -60.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-60,60": {
+      "lat": -60.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:-60,70": {
+      "lat": -60.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-60,80": {
+      "lat": -60.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-60,90": {
+      "lat": -60.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:-60,100": {
+      "lat": -60.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-60,110": {
+      "lat": -60.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-60,120": {
+      "lat": -60.0,
+      "lng": 120.0,
+      "tz_name": "Etc/GMT-8",
+      "tz_names": [
+        "Etc/GMT-8"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-60,130": {
+      "lat": -60.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-60,140": {
+      "lat": -60.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-60,150": {
+      "lat": -60.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-60,160": {
+      "lat": -60.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-60,170": {
+      "lat": -60.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-60,180": {
+      "lat": -60.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:-50,-180": {
+      "lat": -50.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-50,-170": {
+      "lat": -50.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-50,-160": {
+      "lat": -50.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-50,-150": {
+      "lat": -50.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:-50,-140": {
+      "lat": -50.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-50,-130": {
+      "lat": -50.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-50,-120": {
+      "lat": -50.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-50,-110": {
+      "lat": -50.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-50,-100": {
+      "lat": -50.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-50,-90": {
+      "lat": -50.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-50,-80": {
+      "lat": -50.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-50,-70": {
+      "lat": -50.0,
+      "lng": -70.0,
+      "tz_name": "America/Argentina/Rio_Gallegos",
+      "tz_names": [
+        "America/Argentina/Rio_Gallegos"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-50,-60": {
+      "lat": -50.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:-50,-50": {
+      "lat": -50.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-50,-40": {
+      "lat": -50.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-50,-30": {
+      "lat": -50.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-50,-20": {
+      "lat": -50.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-50,-10": {
+      "lat": -50.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-50,0": {
+      "lat": -50.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-50,10": {
+      "lat": -50.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-50,20": {
+      "lat": -50.0,
+      "lng": 20.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-50,30": {
+      "lat": -50.0,
+      "lng": 30.0,
+      "tz_name": "Etc/GMT-2",
+      "tz_names": [
+        "Etc/GMT-2"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-50,40": {
+      "lat": -50.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-50,50": {
+      "lat": -50.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-50,60": {
+      "lat": -50.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:-50,70": {
+      "lat": -50.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-50,80": {
+      "lat": -50.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-50,90": {
+      "lat": -50.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:-50,100": {
+      "lat": -50.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-50,110": {
+      "lat": -50.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-50,120": {
+      "lat": -50.0,
+      "lng": 120.0,
+      "tz_name": "Etc/GMT-8",
+      "tz_names": [
+        "Etc/GMT-8"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-50,130": {
+      "lat": -50.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-50,140": {
+      "lat": -50.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-50,150": {
+      "lat": -50.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-50,160": {
+      "lat": -50.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-50,170": {
+      "lat": -50.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-50,180": {
+      "lat": -50.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:-40,-180": {
+      "lat": -40.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-40,-170": {
+      "lat": -40.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-40,-160": {
+      "lat": -40.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-40,-150": {
+      "lat": -40.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:-40,-140": {
+      "lat": -40.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-40,-130": {
+      "lat": -40.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-40,-120": {
+      "lat": -40.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-40,-110": {
+      "lat": -40.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-40,-100": {
+      "lat": -40.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-40,-90": {
+      "lat": -40.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-40,-80": {
+      "lat": -40.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-40,-70": {
+      "lat": -40.0,
+      "lng": -70.0,
+      "tz_name": "America/Argentina/Salta",
+      "tz_names": [
+        "America/Argentina/Salta"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-40,-60": {
+      "lat": -40.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:-40,-50": {
+      "lat": -40.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-40,-40": {
+      "lat": -40.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-40,-30": {
+      "lat": -40.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-40,-20": {
+      "lat": -40.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-40,-10": {
+      "lat": -40.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-40,0": {
+      "lat": -40.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-40,10": {
+      "lat": -40.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-40,20": {
+      "lat": -40.0,
+      "lng": 20.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-40,30": {
+      "lat": -40.0,
+      "lng": 30.0,
+      "tz_name": "Etc/GMT-2",
+      "tz_names": [
+        "Etc/GMT-2"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-40,40": {
+      "lat": -40.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-40,50": {
+      "lat": -40.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-40,60": {
+      "lat": -40.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:-40,70": {
+      "lat": -40.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-40,80": {
+      "lat": -40.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-40,90": {
+      "lat": -40.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:-40,100": {
+      "lat": -40.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-40,110": {
+      "lat": -40.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-40,120": {
+      "lat": -40.0,
+      "lng": 120.0,
+      "tz_name": "Etc/GMT-8",
+      "tz_names": [
+        "Etc/GMT-8"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-40,130": {
+      "lat": -40.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-40,140": {
+      "lat": -40.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-40,150": {
+      "lat": -40.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-40,160": {
+      "lat": -40.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-40,170": {
+      "lat": -40.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-40,180": {
+      "lat": -40.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:-30,-180": {
+      "lat": -30.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-30,-170": {
+      "lat": -30.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-30,-160": {
+      "lat": -30.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-30,-150": {
+      "lat": -30.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:-30,-140": {
+      "lat": -30.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-30,-130": {
+      "lat": -30.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-30,-120": {
+      "lat": -30.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-30,-110": {
+      "lat": -30.0,
+      "lng": -110.0,
+      "tz_name": "Pacific/Easter",
+      "tz_names": [
+        "Pacific/Easter"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-30,-100": {
+      "lat": -30.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-30,-90": {
+      "lat": -30.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-30,-80": {
+      "lat": -30.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-30,-70": {
+      "lat": -30.0,
+      "lng": -70.0,
+      "tz_name": "America/Santiago",
+      "tz_names": [
+        "America/Santiago"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-30,-60": {
+      "lat": -30.0,
+      "lng": -60.0,
+      "tz_name": "America/Argentina/Cordoba",
+      "tz_names": [
+        "America/Argentina/Cordoba"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-30,-50": {
+      "lat": -30.0,
+      "lng": -50.0,
+      "tz_name": "America/Sao_Paulo",
+      "tz_names": [
+        "America/Sao_Paulo"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-30,-40": {
+      "lat": -30.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-30,-30": {
+      "lat": -30.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-30,-20": {
+      "lat": -30.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-30,-10": {
+      "lat": -30.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-30,0": {
+      "lat": -30.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-30,10": {
+      "lat": -30.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-30,20": {
+      "lat": -30.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Johannesburg",
+      "tz_names": [
+        "Africa/Johannesburg"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-30,30": {
+      "lat": -30.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Johannesburg",
+      "tz_names": [
+        "Africa/Johannesburg"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-30,40": {
+      "lat": -30.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-30,50": {
+      "lat": -30.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-30,60": {
+      "lat": -30.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:-30,70": {
+      "lat": -30.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-30,80": {
+      "lat": -30.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-30,90": {
+      "lat": -30.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:-30,100": {
+      "lat": -30.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-30,110": {
+      "lat": -30.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-30,120": {
+      "lat": -30.0,
+      "lng": 120.0,
+      "tz_name": "Australia/Perth",
+      "tz_names": [
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-30,130": {
+      "lat": -30.0,
+      "lng": 130.0,
+      "tz_name": "Australia/Adelaide",
+      "tz_names": [
+        "Australia/Adelaide"
+      ],
+      "utc_offset": 37800,
+      "covered": true
+    },
+    "grid:-30,140": {
+      "lat": -30.0,
+      "lng": 140.0,
+      "tz_name": "Australia/Adelaide",
+      "tz_names": [
+        "Australia/Adelaide"
+      ],
+      "utc_offset": 37800,
+      "covered": true
+    },
+    "grid:-30,150": {
+      "lat": -30.0,
+      "lng": 150.0,
+      "tz_name": "Australia/Sydney",
+      "tz_names": [
+        "Australia/Sydney"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-30,160": {
+      "lat": -30.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-30,170": {
+      "lat": -30.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-30,180": {
+      "lat": -30.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:-20,-180": {
+      "lat": -20.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-20,-170": {
+      "lat": -20.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-20,-160": {
+      "lat": -20.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-20,-150": {
+      "lat": -20.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:-20,-140": {
+      "lat": -20.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-20,-130": {
+      "lat": -20.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-20,-120": {
+      "lat": -20.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-20,-110": {
+      "lat": -20.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-20,-100": {
+      "lat": -20.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-20,-90": {
+      "lat": -20.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-20,-80": {
+      "lat": -20.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-20,-70": {
+      "lat": -20.0,
+      "lng": -70.0,
+      "tz_name": "America/Santiago",
+      "tz_names": [
+        "America/Santiago"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-20,-60": {
+      "lat": -20.0,
+      "lng": -60.0,
+      "tz_name": "America/Asuncion",
+      "tz_names": [
+        "America/Asuncion"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-20,-50": {
+      "lat": -20.0,
+      "lng": -50.0,
+      "tz_name": "America/Sao_Paulo",
+      "tz_names": [
+        "America/Sao_Paulo"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-20,-40": {
+      "lat": -20.0,
+      "lng": -40.0,
+      "tz_name": "America/Sao_Paulo",
+      "tz_names": [
+        "America/Sao_Paulo"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-20,-30": {
+      "lat": -20.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-20,-20": {
+      "lat": -20.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-20,-10": {
+      "lat": -20.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-20,0": {
+      "lat": -20.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-20,10": {
+      "lat": -20.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-20,20": {
+      "lat": -20.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Windhoek",
+      "tz_names": [
+        "Africa/Windhoek"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-20,30": {
+      "lat": -20.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Harare",
+      "tz_names": [
+        "Africa/Harare"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-20,40": {
+      "lat": -20.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-20,50": {
+      "lat": -20.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-20,60": {
+      "lat": -20.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:-20,70": {
+      "lat": -20.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-20,80": {
+      "lat": -20.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-20,90": {
+      "lat": -20.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:-20,100": {
+      "lat": -20.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-20,110": {
+      "lat": -20.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-20,120": {
+      "lat": -20.0,
+      "lng": 120.0,
+      "tz_name": "Australia/Perth",
+      "tz_names": [
+        "Australia/Perth"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-20,130": {
+      "lat": -20.0,
+      "lng": 130.0,
+      "tz_name": "Australia/Darwin",
+      "tz_names": [
+        "Australia/Darwin"
+      ],
+      "utc_offset": 34200,
+      "covered": true
+    },
+    "grid:-20,140": {
+      "lat": -20.0,
+      "lng": 140.0,
+      "tz_name": "Australia/Brisbane",
+      "tz_names": [
+        "Australia/Brisbane"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-20,150": {
+      "lat": -20.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-20,160": {
+      "lat": -20.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-20,170": {
+      "lat": -20.0,
+      "lng": 170.0,
+      "tz_name": "Pacific/Efate",
+      "tz_names": [
+        "Pacific/Efate"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-20,180": {
+      "lat": -20.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:-10,-180": {
+      "lat": -10.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:-10,-170": {
+      "lat": -10.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-10,-160": {
+      "lat": -10.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:-10,-150": {
+      "lat": -10.0,
+      "lng": -150.0,
+      "tz_name": "Pacific/Kiritimati",
+      "tz_names": [
+        "Pacific/Kiritimati"
+      ],
+      "utc_offset": 50400,
+      "covered": true
+    },
+    "grid:-10,-140": {
+      "lat": -10.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-10,-130": {
+      "lat": -10.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:-10,-120": {
+      "lat": -10.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:-10,-110": {
+      "lat": -10.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-10,-100": {
+      "lat": -10.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:-10,-90": {
+      "lat": -10.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:-10,-80": {
+      "lat": -10.0,
+      "lng": -80.0,
+      "tz_name": "America/Lima",
+      "tz_names": [
+        "America/Lima"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-10,-70": {
+      "lat": -10.0,
+      "lng": -70.0,
+      "tz_name": "America/Rio_Branco",
+      "tz_names": [
+        "America/Rio_Branco"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:-10,-60": {
+      "lat": -10.0,
+      "lng": -60.0,
+      "tz_name": "America/Cuiaba",
+      "tz_names": [
+        "America/Cuiaba"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:-10,-50": {
+      "lat": -10.0,
+      "lng": -50.0,
+      "tz_name": "America/Araguaina",
+      "tz_names": [
+        "America/Araguaina"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-10,-40": {
+      "lat": -10.0,
+      "lng": -40.0,
+      "tz_name": "America/Bahia",
+      "tz_names": [
+        "America/Bahia"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:-10,-30": {
+      "lat": -10.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:-10,-20": {
+      "lat": -10.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-10,-10": {
+      "lat": -10.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:-10,0": {
+      "lat": -10.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:-10,10": {
+      "lat": -10.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-10,20": {
+      "lat": -10.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Luanda",
+      "tz_names": [
+        "Africa/Luanda"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:-10,30": {
+      "lat": -10.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Lusaka",
+      "tz_names": [
+        "Africa/Lusaka"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:-10,40": {
+      "lat": -10.0,
+      "lng": 40.0,
+      "tz_name": "Africa/Dar_es_Salaam",
+      "tz_names": [
+        "Africa/Dar_es_Salaam"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-10,50": {
+      "lat": -10.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:-10,60": {
+      "lat": -10.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:-10,70": {
+      "lat": -10.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-10,80": {
+      "lat": -10.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:-10,90": {
+      "lat": -10.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:-10,100": {
+      "lat": -10.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-10,110": {
+      "lat": -10.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:-10,120": {
+      "lat": -10.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Makassar",
+      "tz_names": [
+        "Asia/Makassar"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:-10,130": {
+      "lat": -10.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-10,140": {
+      "lat": -10.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:-10,150": {
+      "lat": -10.0,
+      "lng": 150.0,
+      "tz_name": "Pacific/Port_Moresby",
+      "tz_names": [
+        "Pacific/Port_Moresby"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:-10,160": {
+      "lat": -10.0,
+      "lng": 160.0,
+      "tz_name": "Pacific/Guadalcanal",
+      "tz_names": [
+        "Pacific/Guadalcanal"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-10,170": {
+      "lat": -10.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:-10,180": {
+      "lat": -10.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:0,-180": {
+      "lat": 0.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:0,-170": {
+      "lat": 0.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:0,-160": {
+      "lat": 0.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:0,-150": {
+      "lat": 0.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:0,-140": {
+      "lat": 0.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:0,-130": {
+      "lat": 0.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:0,-120": {
+      "lat": 0.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:0,-110": {
+      "lat": 0.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:0,-100": {
+      "lat": 0.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:0,-90": {
+      "lat": 0.0,
+      "lng": -90.0,
+      "tz_name": "Pacific/Galapagos",
+      "tz_names": [
+        "Pacific/Galapagos"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:0,-80": {
+      "lat": 0.0,
+      "lng": -80.0,
+      "tz_name": "America/Guayaquil",
+      "tz_names": [
+        "America/Guayaquil"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:0,-70": {
+      "lat": 0.0,
+      "lng": -70.0,
+      "tz_name": "America/Manaus",
+      "tz_names": [
+        "America/Manaus"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:0,-60": {
+      "lat": 0.0,
+      "lng": -60.0,
+      "tz_name": "America/Manaus",
+      "tz_names": [
+        "America/Manaus"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:0,-50": {
+      "lat": 0.0,
+      "lng": -50.0,
+      "tz_name": "America/Belem",
+      "tz_names": [
+        "America/Belem"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:0,-40": {
+      "lat": 0.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:0,-30": {
+      "lat": 0.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:0,-20": {
+      "lat": 0.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:0,-10": {
+      "lat": 0.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:0,0": {
+      "lat": 0.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:0,10": {
+      "lat": 0.0,
+      "lng": 10.0,
+      "tz_name": "Africa/Libreville",
+      "tz_names": [
+        "Africa/Libreville"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:0,20": {
+      "lat": 0.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Kinshasa",
+      "tz_names": [
+        "Africa/Kinshasa"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:0,30": {
+      "lat": 0.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Kampala",
+      "tz_names": [
+        "Africa/Kampala"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:0,40": {
+      "lat": 0.0,
+      "lng": 40.0,
+      "tz_name": "Africa/Nairobi",
+      "tz_names": [
+        "Africa/Nairobi"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:0,50": {
+      "lat": 0.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:0,60": {
+      "lat": 0.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:0,70": {
+      "lat": 0.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:0,80": {
+      "lat": 0.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:0,90": {
+      "lat": 0.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:0,100": {
+      "lat": 0.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Jakarta",
+      "tz_names": [
+        "Asia/Jakarta"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:0,110": {
+      "lat": 0.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Pontianak",
+      "tz_names": [
+        "Asia/Pontianak"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:0,120": {
+      "lat": 0.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Makassar",
+      "tz_names": [
+        "Asia/Makassar"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:0,130": {
+      "lat": 0.0,
+      "lng": 130.0,
+      "tz_name": "Asia/Jayapura",
+      "tz_names": [
+        "Asia/Jayapura"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:0,140": {
+      "lat": 0.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:0,150": {
+      "lat": 0.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:0,160": {
+      "lat": 0.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:0,170": {
+      "lat": 0.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:0,180": {
+      "lat": 0.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:10,-180": {
+      "lat": 10.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:10,-170": {
+      "lat": 10.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:10,-160": {
+      "lat": 10.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:10,-150": {
+      "lat": 10.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:10,-140": {
+      "lat": 10.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:10,-130": {
+      "lat": 10.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:10,-120": {
+      "lat": 10.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:10,-110": {
+      "lat": 10.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:10,-100": {
+      "lat": 10.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:10,-90": {
+      "lat": 10.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:10,-80": {
+      "lat": 10.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:10,-70": {
+      "lat": 10.0,
+      "lng": -70.0,
+      "tz_name": "America/Caracas",
+      "tz_names": [
+        "America/Caracas"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:10,-60": {
+      "lat": 10.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:10,-50": {
+      "lat": 10.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:10,-40": {
+      "lat": 10.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:10,-30": {
+      "lat": 10.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:10,-20": {
+      "lat": 10.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:10,-10": {
+      "lat": 10.0,
+      "lng": -10.0,
+      "tz_name": "Africa/Conakry",
+      "tz_names": [
+        "Africa/Conakry"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:10,0": {
+      "lat": 10.0,
+      "lng": 0.0,
+      "tz_name": "Africa/Accra",
+      "tz_names": [
+        "Africa/Accra"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:10,10": {
+      "lat": 10.0,
+      "lng": 10.0,
+      "tz_name": "Africa/Lagos",
+      "tz_names": [
+        "Africa/Lagos"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:10,20": {
+      "lat": 10.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Ndjamena",
+      "tz_names": [
+        "Africa/Ndjamena"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:10,30": {
+      "lat": 10.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Juba",
+      "tz_names": [
+        "Africa/Juba"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:10,40": {
+      "lat": 10.0,
+      "lng": 40.0,
+      "tz_name": "Africa/Addis_Ababa",
+      "tz_names": [
+        "Africa/Addis_Ababa"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:10,50": {
+      "lat": 10.0,
+      "lng": 50.0,
+      "tz_name": "Africa/Mogadishu",
+      "tz_names": [
+        "Africa/Mogadishu"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:10,60": {
+      "lat": 10.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:10,70": {
+      "lat": 10.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:10,80": {
+      "lat": 10.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Colombo",
+      "tz_names": [
+        "Asia/Colombo"
+      ],
+      "utc_offset": 19800,
+      "covered": true
+    },
+    "grid:10,90": {
+      "lat": 10.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:10,100": {
+      "lat": 10.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Bangkok",
+      "tz_names": [
+        "Asia/Bangkok"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:10,110": {
+      "lat": 10.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:10,120": {
+      "lat": 10.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Manila",
+      "tz_names": [
+        "Asia/Manila"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:10,130": {
+      "lat": 10.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:10,140": {
+      "lat": 10.0,
+      "lng": 140.0,
+      "tz_name": "Pacific/Chuuk",
+      "tz_names": [
+        "Pacific/Chuuk"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:10,150": {
+      "lat": 10.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:10,160": {
+      "lat": 10.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:10,170": {
+      "lat": 10.0,
+      "lng": 170.0,
+      "tz_name": "Pacific/Majuro",
+      "tz_names": [
+        "Pacific/Majuro"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:10,180": {
+      "lat": 10.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:20,-180": {
+      "lat": 20.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:20,-170": {
+      "lat": 20.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:20,-160": {
+      "lat": 20.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:20,-150": {
+      "lat": 20.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:20,-140": {
+      "lat": 20.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:20,-130": {
+      "lat": 20.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:20,-120": {
+      "lat": 20.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:20,-110": {
+      "lat": 20.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:20,-100": {
+      "lat": 20.0,
+      "lng": -100.0,
+      "tz_name": "America/Mexico_City",
+      "tz_names": [
+        "America/Mexico_City"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:20,-90": {
+      "lat": 20.0,
+      "lng": -90.0,
+      "tz_name": "America/Merida",
+      "tz_names": [
+        "America/Merida"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:20,-80": {
+      "lat": 20.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:20,-70": {
+      "lat": 20.0,
+      "lng": -70.0,
+      "tz_name": "America/Santo_Domingo",
+      "tz_names": [
+        "America/Santo_Domingo"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:20,-60": {
+      "lat": 20.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:20,-50": {
+      "lat": 20.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:20,-40": {
+      "lat": 20.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:20,-30": {
+      "lat": 20.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:20,-20": {
+      "lat": 20.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:20,-10": {
+      "lat": 20.0,
+      "lng": -10.0,
+      "tz_name": "Africa/Nouakchott",
+      "tz_names": [
+        "Africa/Nouakchott"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:20,0": {
+      "lat": 20.0,
+      "lng": 0.0,
+      "tz_name": "Africa/Bamako",
+      "tz_names": [
+        "Africa/Bamako"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:20,10": {
+      "lat": 20.0,
+      "lng": 10.0,
+      "tz_name": "Africa/Niamey",
+      "tz_names": [
+        "Africa/Niamey"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:20,20": {
+      "lat": 20.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Ndjamena",
+      "tz_names": [
+        "Africa/Ndjamena"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:20,30": {
+      "lat": 20.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Khartoum",
+      "tz_names": [
+        "Africa/Khartoum"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:20,40": {
+      "lat": 20.0,
+      "lng": 40.0,
+      "tz_name": "Asia/Riyadh",
+      "tz_names": [
+        "Asia/Riyadh"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:20,50": {
+      "lat": 20.0,
+      "lng": 50.0,
+      "tz_name": "Asia/Riyadh",
+      "tz_names": [
+        "Asia/Riyadh"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:20,60": {
+      "lat": 20.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:20,70": {
+      "lat": 20.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:20,80": {
+      "lat": 20.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Kolkata",
+      "tz_names": [
+        "Asia/Kolkata"
+      ],
+      "utc_offset": 19800,
+      "covered": true
+    },
+    "grid:20,90": {
+      "lat": 20.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:20,100": {
+      "lat": 20.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Bangkok",
+      "tz_names": [
+        "Asia/Bangkok"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:20,110": {
+      "lat": 20.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:20,120": {
+      "lat": 20.0,
+      "lng": 120.0,
+      "tz_name": "Etc/GMT-8",
+      "tz_names": [
+        "Etc/GMT-8"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:20,130": {
+      "lat": 20.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:20,140": {
+      "lat": 20.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:20,150": {
+      "lat": 20.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:20,160": {
+      "lat": 20.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:20,170": {
+      "lat": 20.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:20,180": {
+      "lat": 20.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:30,-180": {
+      "lat": 30.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:30,-170": {
+      "lat": 30.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:30,-160": {
+      "lat": 30.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:30,-150": {
+      "lat": 30.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:30,-140": {
+      "lat": 30.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:30,-130": {
+      "lat": 30.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:30,-120": {
+      "lat": 30.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:30,-110": {
+      "lat": 30.0,
+      "lng": -110.0,
+      "tz_name": "America/Hermosillo",
+      "tz_names": [
+        "America/Hermosillo"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:30,-100": {
+      "lat": 30.0,
+      "lng": -100.0,
+      "tz_name": "America/Chicago",
+      "tz_names": [
+        "America/Chicago"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:30,-90": {
+      "lat": 30.0,
+      "lng": -90.0,
+      "tz_name": "America/Chicago",
+      "tz_names": [
+        "America/Chicago"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:30,-80": {
+      "lat": 30.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:30,-70": {
+      "lat": 30.0,
+      "lng": -70.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:30,-60": {
+      "lat": 30.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:30,-50": {
+      "lat": 30.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:30,-40": {
+      "lat": 30.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:30,-30": {
+      "lat": 30.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:30,-20": {
+      "lat": 30.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:30,-10": {
+      "lat": 30.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:30,0": {
+      "lat": 30.0,
+      "lng": 0.0,
+      "tz_name": "Africa/Algiers",
+      "tz_names": [
+        "Africa/Algiers"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:30,10": {
+      "lat": 30.0,
+      "lng": 10.0,
+      "tz_name": "Africa/Tripoli",
+      "tz_names": [
+        "Africa/Tripoli"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:30,20": {
+      "lat": 30.0,
+      "lng": 20.0,
+      "tz_name": "Africa/Tripoli",
+      "tz_names": [
+        "Africa/Tripoli"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:30,30": {
+      "lat": 30.0,
+      "lng": 30.0,
+      "tz_name": "Africa/Cairo",
+      "tz_names": [
+        "Africa/Cairo"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:30,40": {
+      "lat": 30.0,
+      "lng": 40.0,
+      "tz_name": "Asia/Riyadh",
+      "tz_names": [
+        "Asia/Riyadh"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:30,50": {
+      "lat": 30.0,
+      "lng": 50.0,
+      "tz_name": "Asia/Tehran",
+      "tz_names": [
+        "Asia/Tehran"
+      ],
+      "utc_offset": 12600,
+      "covered": true
+    },
+    "grid:30,60": {
+      "lat": 30.0,
+      "lng": 60.0,
+      "tz_name": "Asia/Tehran",
+      "tz_names": [
+        "Asia/Tehran"
+      ],
+      "utc_offset": 12600,
+      "covered": true
+    },
+    "grid:30,70": {
+      "lat": 30.0,
+      "lng": 70.0,
+      "tz_name": "Asia/Karachi",
+      "tz_names": [
+        "Asia/Karachi"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:30,80": {
+      "lat": 30.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Kolkata",
+      "tz_names": [
+        "Asia/Kolkata"
+      ],
+      "utc_offset": 19800,
+      "covered": true
+    },
+    "grid:30,90": {
+      "lat": 30.0,
+      "lng": 90.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:30,100": {
+      "lat": 30.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:30,110": {
+      "lat": 30.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:30,120": {
+      "lat": 30.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:30,130": {
+      "lat": 30.0,
+      "lng": 130.0,
+      "tz_name": "Asia/Tokyo",
+      "tz_names": [
+        "Asia/Tokyo"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:30,140": {
+      "lat": 30.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:30,150": {
+      "lat": 30.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:30,160": {
+      "lat": 30.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:30,170": {
+      "lat": 30.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:30,180": {
+      "lat": 30.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:40,-180": {
+      "lat": 40.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:40,-170": {
+      "lat": 40.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:40,-160": {
+      "lat": 40.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:40,-150": {
+      "lat": 40.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:40,-140": {
+      "lat": 40.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:40,-130": {
+      "lat": 40.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:40,-120": {
+      "lat": 40.0,
+      "lng": -120.0,
+      "tz_name": "America/Los_Angeles",
+      "tz_names": [
+        "America/Los_Angeles"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:40,-110": {
+      "lat": 40.0,
+      "lng": -110.0,
+      "tz_name": "America/Denver",
+      "tz_names": [
+        "America/Denver"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:40,-100": {
+      "lat": 40.0,
+      "lng": -100.0,
+      "tz_name": "America/Chicago",
+      "tz_names": [
+        "America/Chicago"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:40,-90": {
+      "lat": 40.0,
+      "lng": -90.0,
+      "tz_name": "America/Chicago",
+      "tz_names": [
+        "America/Chicago"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:40,-80": {
+      "lat": 40.0,
+      "lng": -80.0,
+      "tz_name": "America/New_York",
+      "tz_names": [
+        "America/New_York"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:40,-70": {
+      "lat": 40.0,
+      "lng": -70.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:40,-60": {
+      "lat": 40.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:40,-50": {
+      "lat": 40.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:40,-40": {
+      "lat": 40.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:40,-30": {
+      "lat": 40.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:40,-20": {
+      "lat": 40.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:40,-10": {
+      "lat": 40.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:40,0": {
+      "lat": 40.0,
+      "lng": 0.0,
+      "tz_name": "Europe/Madrid",
+      "tz_names": [
+        "Europe/Madrid"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:40,10": {
+      "lat": 40.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:40,20": {
+      "lat": 40.0,
+      "lng": 20.0,
+      "tz_name": "Europe/Tirane",
+      "tz_names": [
+        "Europe/Tirane"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:40,30": {
+      "lat": 40.0,
+      "lng": 30.0,
+      "tz_name": "Europe/Istanbul",
+      "tz_names": [
+        "Europe/Istanbul"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:40,40": {
+      "lat": 40.0,
+      "lng": 40.0,
+      "tz_name": "Europe/Istanbul",
+      "tz_names": [
+        "Europe/Istanbul"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:40,50": {
+      "lat": 40.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:40,60": {
+      "lat": 40.0,
+      "lng": 60.0,
+      "tz_name": "Asia/Ashgabat",
+      "tz_names": [
+        "Asia/Ashgabat"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:40,70": {
+      "lat": 40.0,
+      "lng": 70.0,
+      "tz_name": "Asia/Bishkek",
+      "tz_names": [
+        "Asia/Bishkek"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:40,80": {
+      "lat": 40.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai",
+        "Asia/Urumqi"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:40,90": {
+      "lat": 40.0,
+      "lng": 90.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai",
+        "Asia/Urumqi"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:40,100": {
+      "lat": 40.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:40,110": {
+      "lat": 40.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:40,120": {
+      "lat": 40.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:40,130": {
+      "lat": 40.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:40,140": {
+      "lat": 40.0,
+      "lng": 140.0,
+      "tz_name": "Asia/Tokyo",
+      "tz_names": [
+        "Asia/Tokyo"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:40,150": {
+      "lat": 40.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:40,160": {
+      "lat": 40.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:40,170": {
+      "lat": 40.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:40,180": {
+      "lat": 40.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:50,-180": {
+      "lat": 50.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:50,-170": {
+      "lat": 50.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:50,-160": {
+      "lat": 50.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:50,-150": {
+      "lat": 50.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:50,-140": {
+      "lat": 50.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:50,-130": {
+      "lat": 50.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:50,-120": {
+      "lat": 50.0,
+      "lng": -120.0,
+      "tz_name": "America/Vancouver",
+      "tz_names": [
+        "America/Vancouver"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:50,-110": {
+      "lat": 50.0,
+      "lng": -110.0,
+      "tz_name": "America/Swift_Current",
+      "tz_names": [
+        "America/Swift_Current"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:50,-100": {
+      "lat": 50.0,
+      "lng": -100.0,
+      "tz_name": "America/Winnipeg",
+      "tz_names": [
+        "America/Winnipeg"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:50,-90": {
+      "lat": 50.0,
+      "lng": -90.0,
+      "tz_name": "America/Toronto",
+      "tz_names": [
+        "America/Toronto",
+        "America/Winnipeg"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:50,-80": {
+      "lat": 50.0,
+      "lng": -80.0,
+      "tz_name": "America/Toronto",
+      "tz_names": [
+        "America/Toronto"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:50,-70": {
+      "lat": 50.0,
+      "lng": -70.0,
+      "tz_name": "America/Toronto",
+      "tz_names": [
+        "America/Toronto"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:50,-60": {
+      "lat": 50.0,
+      "lng": -60.0,
+      "tz_name": "America/Blanc-Sablon",
+      "tz_names": [
+        "America/Blanc-Sablon"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:50,-50": {
+      "lat": 50.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:50,-40": {
+      "lat": 50.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:50,-30": {
+      "lat": 50.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:50,-20": {
+      "lat": 50.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:50,-10": {
+      "lat": 50.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:50,0": {
+      "lat": 50.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:50,10": {
+      "lat": 50.0,
+      "lng": 10.0,
+      "tz_name": "Europe/Berlin",
+      "tz_names": [
+        "Europe/Berlin"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:50,20": {
+      "lat": 50.0,
+      "lng": 20.0,
+      "tz_name": "Europe/Warsaw",
+      "tz_names": [
+        "Europe/Warsaw"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:50,30": {
+      "lat": 50.0,
+      "lng": 30.0,
+      "tz_name": "Europe/Kyiv",
+      "tz_names": [
+        "Europe/Kyiv"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:50,40": {
+      "lat": 50.0,
+      "lng": 40.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:50,50": {
+      "lat": 50.0,
+      "lng": 50.0,
+      "tz_name": "Asia/Oral",
+      "tz_names": [
+        "Asia/Oral"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:50,60": {
+      "lat": 50.0,
+      "lng": 60.0,
+      "tz_name": "Asia/Aqtobe",
+      "tz_names": [
+        "Asia/Aqtobe"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:50,70": {
+      "lat": 50.0,
+      "lng": 70.0,
+      "tz_name": "Asia/Almaty",
+      "tz_names": [
+        "Asia/Almaty"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:50,80": {
+      "lat": 50.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Almaty",
+      "tz_names": [
+        "Asia/Almaty"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:50,90": {
+      "lat": 50.0,
+      "lng": 90.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:50,100": {
+      "lat": 50.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Ulaanbaatar",
+      "tz_names": [
+        "Asia/Ulaanbaatar"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:50,110": {
+      "lat": 50.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Chita",
+      "tz_names": [
+        "Asia/Chita"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:50,120": {
+      "lat": 50.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Shanghai",
+      "tz_names": [
+        "Asia/Shanghai"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:50,130": {
+      "lat": 50.0,
+      "lng": 130.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:50,140": {
+      "lat": 50.0,
+      "lng": 140.0,
+      "tz_name": "Asia/Vladivostok",
+      "tz_names": [
+        "Asia/Vladivostok"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:50,150": {
+      "lat": 50.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:50,160": {
+      "lat": 50.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:50,170": {
+      "lat": 50.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:50,180": {
+      "lat": 50.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:60,-180": {
+      "lat": 60.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:60,-170": {
+      "lat": 60.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:60,-160": {
+      "lat": 60.0,
+      "lng": -160.0,
+      "tz_name": "America/Anchorage",
+      "tz_names": [
+        "America/Anchorage"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:60,-150": {
+      "lat": 60.0,
+      "lng": -150.0,
+      "tz_name": "America/Anchorage",
+      "tz_names": [
+        "America/Anchorage"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:60,-140": {
+      "lat": 60.0,
+      "lng": -140.0,
+      "tz_name": "America/Yakutat",
+      "tz_names": [
+        "America/Yakutat"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:60,-130": {
+      "lat": 60.0,
+      "lng": -130.0,
+      "tz_name": "America/Whitehorse",
+      "tz_names": [
+        "America/Whitehorse"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:60,-120": {
+      "lat": 60.0,
+      "lng": -120.0,
+      "tz_name": "America/Edmonton",
+      "tz_names": [
+        "America/Edmonton"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:60,-110": {
+      "lat": 60.0,
+      "lng": -110.0,
+      "tz_name": "America/Edmonton",
+      "tz_names": [
+        "America/Edmonton"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:60,-100": {
+      "lat": 60.0,
+      "lng": -100.0,
+      "tz_name": "America/Rankin_Inlet",
+      "tz_names": [
+        "America/Rankin_Inlet"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:60,-90": {
+      "lat": 60.0,
+      "lng": -90.0,
+      "tz_name": "America/Rankin_Inlet",
+      "tz_names": [
+        "America/Rankin_Inlet"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:60,-80": {
+      "lat": 60.0,
+      "lng": -80.0,
+      "tz_name": "America/Iqaluit",
+      "tz_names": [
+        "America/Iqaluit"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:60,-70": {
+      "lat": 60.0,
+      "lng": -70.0,
+      "tz_name": "America/Toronto",
+      "tz_names": [
+        "America/Toronto"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:60,-60": {
+      "lat": 60.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:60,-50": {
+      "lat": 60.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:60,-40": {
+      "lat": 60.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:60,-30": {
+      "lat": 60.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:60,-20": {
+      "lat": 60.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:60,-10": {
+      "lat": 60.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:60,0": {
+      "lat": 60.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:60,10": {
+      "lat": 60.0,
+      "lng": 10.0,
+      "tz_name": "Europe/Oslo",
+      "tz_names": [
+        "Europe/Oslo"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:60,20": {
+      "lat": 60.0,
+      "lng": 20.0,
+      "tz_name": "Europe/Mariehamn",
+      "tz_names": [
+        "Europe/Mariehamn"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:60,30": {
+      "lat": 60.0,
+      "lng": 30.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:60,40": {
+      "lat": 60.0,
+      "lng": 40.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:60,50": {
+      "lat": 60.0,
+      "lng": 50.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:60,60": {
+      "lat": 60.0,
+      "lng": 60.0,
+      "tz_name": "Asia/Yekaterinburg",
+      "tz_names": [
+        "Asia/Yekaterinburg"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:60,70": {
+      "lat": 60.0,
+      "lng": 70.0,
+      "tz_name": "Asia/Yekaterinburg",
+      "tz_names": [
+        "Asia/Yekaterinburg"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:60,80": {
+      "lat": 60.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Tomsk",
+      "tz_names": [
+        "Asia/Tomsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:60,90": {
+      "lat": 60.0,
+      "lng": 90.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:60,100": {
+      "lat": 60.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:60,110": {
+      "lat": 60.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:60,120": {
+      "lat": 60.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:60,130": {
+      "lat": 60.0,
+      "lng": 130.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:60,140": {
+      "lat": 60.0,
+      "lng": 140.0,
+      "tz_name": "Asia/Vladivostok",
+      "tz_names": [
+        "Asia/Vladivostok"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:60,150": {
+      "lat": 60.0,
+      "lng": 150.0,
+      "tz_name": "Asia/Magadan",
+      "tz_names": [
+        "Asia/Magadan"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:60,160": {
+      "lat": 60.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:60,170": {
+      "lat": 60.0,
+      "lng": 170.0,
+      "tz_name": "Asia/Kamchatka",
+      "tz_names": [
+        "Asia/Kamchatka"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:60,180": {
+      "lat": 60.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:70,-180": {
+      "lat": 70.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:70,-170": {
+      "lat": 70.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:70,-160": {
+      "lat": 70.0,
+      "lng": -160.0,
+      "tz_name": "America/Anchorage",
+      "tz_names": [
+        "America/Anchorage"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:70,-150": {
+      "lat": 70.0,
+      "lng": -150.0,
+      "tz_name": "America/Anchorage",
+      "tz_names": [
+        "America/Anchorage"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:70,-140": {
+      "lat": 70.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:70,-130": {
+      "lat": 70.0,
+      "lng": -130.0,
+      "tz_name": "America/Inuvik",
+      "tz_names": [
+        "America/Inuvik"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:70,-120": {
+      "lat": 70.0,
+      "lng": -120.0,
+      "tz_name": "America/Edmonton",
+      "tz_names": [
+        "America/Edmonton",
+        "America/Inuvik"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:70,-110": {
+      "lat": 70.0,
+      "lng": -110.0,
+      "tz_name": "America/Cambridge_Bay",
+      "tz_names": [
+        "America/Cambridge_Bay"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:70,-100": {
+      "lat": 70.0,
+      "lng": -100.0,
+      "tz_name": "America/Cambridge_Bay",
+      "tz_names": [
+        "America/Cambridge_Bay"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:70,-90": {
+      "lat": 70.0,
+      "lng": -90.0,
+      "tz_name": "America/Cambridge_Bay",
+      "tz_names": [
+        "America/Cambridge_Bay"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:70,-80": {
+      "lat": 70.0,
+      "lng": -80.0,
+      "tz_name": "America/Iqaluit",
+      "tz_names": [
+        "America/Iqaluit"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:70,-70": {
+      "lat": 70.0,
+      "lng": -70.0,
+      "tz_name": "America/Iqaluit",
+      "tz_names": [
+        "America/Iqaluit"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:70,-60": {
+      "lat": 70.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:70,-50": {
+      "lat": 70.0,
+      "lng": -50.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:70,-40": {
+      "lat": 70.0,
+      "lng": -40.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:70,-30": {
+      "lat": 70.0,
+      "lng": -30.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:70,-20": {
+      "lat": 70.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:70,-10": {
+      "lat": 70.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:70,0": {
+      "lat": 70.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:70,10": {
+      "lat": 70.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:70,20": {
+      "lat": 70.0,
+      "lng": 20.0,
+      "tz_name": "Europe/Oslo",
+      "tz_names": [
+        "Europe/Oslo"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:70,30": {
+      "lat": 70.0,
+      "lng": 30.0,
+      "tz_name": "Europe/Oslo",
+      "tz_names": [
+        "Europe/Oslo"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:70,40": {
+      "lat": 70.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:70,50": {
+      "lat": 70.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:70,60": {
+      "lat": 70.0,
+      "lng": 60.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:70,70": {
+      "lat": 70.0,
+      "lng": 70.0,
+      "tz_name": "Asia/Yekaterinburg",
+      "tz_names": [
+        "Asia/Yekaterinburg"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:70,80": {
+      "lat": 70.0,
+      "lng": 80.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:70,90": {
+      "lat": 70.0,
+      "lng": 90.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:70,100": {
+      "lat": 70.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:70,110": {
+      "lat": 70.0,
+      "lng": 110.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:70,120": {
+      "lat": 70.0,
+      "lng": 120.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:70,130": {
+      "lat": 70.0,
+      "lng": 130.0,
+      "tz_name": "Asia/Yakutsk",
+      "tz_names": [
+        "Asia/Yakutsk"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:70,140": {
+      "lat": 70.0,
+      "lng": 140.0,
+      "tz_name": "Asia/Vladivostok",
+      "tz_names": [
+        "Asia/Vladivostok"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:70,150": {
+      "lat": 70.0,
+      "lng": 150.0,
+      "tz_name": "Asia/Srednekolymsk",
+      "tz_names": [
+        "Asia/Srednekolymsk"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:70,160": {
+      "lat": 70.0,
+      "lng": 160.0,
+      "tz_name": "Asia/Srednekolymsk",
+      "tz_names": [
+        "Asia/Srednekolymsk"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:70,170": {
+      "lat": 70.0,
+      "lng": 170.0,
+      "tz_name": "Asia/Anadyr",
+      "tz_names": [
+        "Asia/Anadyr"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:70,180": {
+      "lat": 70.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:80,-180": {
+      "lat": 80.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:80,-170": {
+      "lat": 80.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:80,-160": {
+      "lat": 80.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:80,-150": {
+      "lat": 80.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:80,-140": {
+      "lat": 80.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:80,-130": {
+      "lat": 80.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:80,-120": {
+      "lat": 80.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:80,-110": {
+      "lat": 80.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:80,-100": {
+      "lat": 80.0,
+      "lng": -100.0,
+      "tz_name": "America/Rankin_Inlet",
+      "tz_names": [
+        "America/Rankin_Inlet"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:80,-90": {
+      "lat": 80.0,
+      "lng": -90.0,
+      "tz_name": "America/Rankin_Inlet",
+      "tz_names": [
+        "America/Rankin_Inlet"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:80,-80": {
+      "lat": 80.0,
+      "lng": -80.0,
+      "tz_name": "America/Iqaluit",
+      "tz_names": [
+        "America/Iqaluit"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:80,-70": {
+      "lat": 80.0,
+      "lng": -70.0,
+      "tz_name": "America/Iqaluit",
+      "tz_names": [
+        "America/Iqaluit"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:80,-60": {
+      "lat": 80.0,
+      "lng": -60.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:80,-50": {
+      "lat": 80.0,
+      "lng": -50.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:80,-40": {
+      "lat": 80.0,
+      "lng": -40.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:80,-30": {
+      "lat": 80.0,
+      "lng": -30.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:80,-20": {
+      "lat": 80.0,
+      "lng": -20.0,
+      "tz_name": "America/Nuuk",
+      "tz_names": [
+        "America/Nuuk"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:80,-10": {
+      "lat": 80.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:80,0": {
+      "lat": 80.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:80,10": {
+      "lat": 80.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:80,20": {
+      "lat": 80.0,
+      "lng": 20.0,
+      "tz_name": "Arctic/Longyearbyen",
+      "tz_names": [
+        "Arctic/Longyearbyen"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:80,30": {
+      "lat": 80.0,
+      "lng": 30.0,
+      "tz_name": "Etc/GMT-2",
+      "tz_names": [
+        "Etc/GMT-2"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:80,40": {
+      "lat": 80.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:80,50": {
+      "lat": 80.0,
+      "lng": 50.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:80,60": {
+      "lat": 80.0,
+      "lng": 60.0,
+      "tz_name": "Europe/Moscow",
+      "tz_names": [
+        "Europe/Moscow"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:80,70": {
+      "lat": 80.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:80,80": {
+      "lat": 80.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:80,90": {
+      "lat": 80.0,
+      "lng": 90.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:80,100": {
+      "lat": 80.0,
+      "lng": 100.0,
+      "tz_name": "Asia/Krasnoyarsk",
+      "tz_names": [
+        "Asia/Krasnoyarsk"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:80,110": {
+      "lat": 80.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:80,120": {
+      "lat": 80.0,
+      "lng": 120.0,
+      "tz_name": "Etc/GMT-8",
+      "tz_names": [
+        "Etc/GMT-8"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:80,130": {
+      "lat": 80.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:80,140": {
+      "lat": 80.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:80,150": {
+      "lat": 80.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:80,160": {
+      "lat": 80.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:80,170": {
+      "lat": 80.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:80,180": {
+      "lat": 80.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    },
+    "grid:90,-180": {
+      "lat": 90.0,
+      "lng": -180.0,
+      "tz_name": "Etc/GMT+12",
+      "tz_names": [
+        "Etc/GMT+12"
+      ],
+      "utc_offset": -43200,
+      "covered": true
+    },
+    "grid:90,-170": {
+      "lat": 90.0,
+      "lng": -170.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:90,-160": {
+      "lat": 90.0,
+      "lng": -160.0,
+      "tz_name": "Etc/GMT+11",
+      "tz_names": [
+        "Etc/GMT+11"
+      ],
+      "utc_offset": -39600,
+      "covered": true
+    },
+    "grid:90,-150": {
+      "lat": 90.0,
+      "lng": -150.0,
+      "tz_name": "Etc/GMT+10",
+      "tz_names": [
+        "Etc/GMT+10"
+      ],
+      "utc_offset": -36000,
+      "covered": true
+    },
+    "grid:90,-140": {
+      "lat": 90.0,
+      "lng": -140.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:90,-130": {
+      "lat": 90.0,
+      "lng": -130.0,
+      "tz_name": "Etc/GMT+9",
+      "tz_names": [
+        "Etc/GMT+9"
+      ],
+      "utc_offset": -32400,
+      "covered": true
+    },
+    "grid:90,-120": {
+      "lat": 90.0,
+      "lng": -120.0,
+      "tz_name": "Etc/GMT+8",
+      "tz_names": [
+        "Etc/GMT+8"
+      ],
+      "utc_offset": -28800,
+      "covered": true
+    },
+    "grid:90,-110": {
+      "lat": 90.0,
+      "lng": -110.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:90,-100": {
+      "lat": 90.0,
+      "lng": -100.0,
+      "tz_name": "Etc/GMT+7",
+      "tz_names": [
+        "Etc/GMT+7"
+      ],
+      "utc_offset": -25200,
+      "covered": true
+    },
+    "grid:90,-90": {
+      "lat": 90.0,
+      "lng": -90.0,
+      "tz_name": "Etc/GMT+6",
+      "tz_names": [
+        "Etc/GMT+6"
+      ],
+      "utc_offset": -21600,
+      "covered": true
+    },
+    "grid:90,-80": {
+      "lat": 90.0,
+      "lng": -80.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:90,-70": {
+      "lat": 90.0,
+      "lng": -70.0,
+      "tz_name": "Etc/GMT+5",
+      "tz_names": [
+        "Etc/GMT+5"
+      ],
+      "utc_offset": -18000,
+      "covered": true
+    },
+    "grid:90,-60": {
+      "lat": 90.0,
+      "lng": -60.0,
+      "tz_name": "Etc/GMT+4",
+      "tz_names": [
+        "Etc/GMT+4"
+      ],
+      "utc_offset": -14400,
+      "covered": true
+    },
+    "grid:90,-50": {
+      "lat": 90.0,
+      "lng": -50.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:90,-40": {
+      "lat": 90.0,
+      "lng": -40.0,
+      "tz_name": "Etc/GMT+3",
+      "tz_names": [
+        "Etc/GMT+3"
+      ],
+      "utc_offset": -10800,
+      "covered": true
+    },
+    "grid:90,-30": {
+      "lat": 90.0,
+      "lng": -30.0,
+      "tz_name": "Etc/GMT+2",
+      "tz_names": [
+        "Etc/GMT+2"
+      ],
+      "utc_offset": -7200,
+      "covered": true
+    },
+    "grid:90,-20": {
+      "lat": 90.0,
+      "lng": -20.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:90,-10": {
+      "lat": 90.0,
+      "lng": -10.0,
+      "tz_name": "Etc/GMT+1",
+      "tz_names": [
+        "Etc/GMT+1"
+      ],
+      "utc_offset": -3600,
+      "covered": true
+    },
+    "grid:90,0": {
+      "lat": 90.0,
+      "lng": 0.0,
+      "tz_name": "Etc/GMT",
+      "tz_names": [
+        "Etc/GMT"
+      ],
+      "utc_offset": 0,
+      "covered": true
+    },
+    "grid:90,10": {
+      "lat": 90.0,
+      "lng": 10.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:90,20": {
+      "lat": 90.0,
+      "lng": 20.0,
+      "tz_name": "Etc/GMT-1",
+      "tz_names": [
+        "Etc/GMT-1"
+      ],
+      "utc_offset": 3600,
+      "covered": true
+    },
+    "grid:90,30": {
+      "lat": 90.0,
+      "lng": 30.0,
+      "tz_name": "Etc/GMT-2",
+      "tz_names": [
+        "Etc/GMT-2"
+      ],
+      "utc_offset": 7200,
+      "covered": true
+    },
+    "grid:90,40": {
+      "lat": 90.0,
+      "lng": 40.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:90,50": {
+      "lat": 90.0,
+      "lng": 50.0,
+      "tz_name": "Etc/GMT-3",
+      "tz_names": [
+        "Etc/GMT-3"
+      ],
+      "utc_offset": 10800,
+      "covered": true
+    },
+    "grid:90,60": {
+      "lat": 90.0,
+      "lng": 60.0,
+      "tz_name": "Etc/GMT-4",
+      "tz_names": [
+        "Etc/GMT-4"
+      ],
+      "utc_offset": 14400,
+      "covered": true
+    },
+    "grid:90,70": {
+      "lat": 90.0,
+      "lng": 70.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:90,80": {
+      "lat": 90.0,
+      "lng": 80.0,
+      "tz_name": "Etc/GMT-5",
+      "tz_names": [
+        "Etc/GMT-5"
+      ],
+      "utc_offset": 18000,
+      "covered": true
+    },
+    "grid:90,90": {
+      "lat": 90.0,
+      "lng": 90.0,
+      "tz_name": "Etc/GMT-6",
+      "tz_names": [
+        "Etc/GMT-6"
+      ],
+      "utc_offset": 21600,
+      "covered": true
+    },
+    "grid:90,100": {
+      "lat": 90.0,
+      "lng": 100.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:90,110": {
+      "lat": 90.0,
+      "lng": 110.0,
+      "tz_name": "Etc/GMT-7",
+      "tz_names": [
+        "Etc/GMT-7"
+      ],
+      "utc_offset": 25200,
+      "covered": true
+    },
+    "grid:90,120": {
+      "lat": 90.0,
+      "lng": 120.0,
+      "tz_name": "Etc/GMT-8",
+      "tz_names": [
+        "Etc/GMT-8"
+      ],
+      "utc_offset": 28800,
+      "covered": true
+    },
+    "grid:90,130": {
+      "lat": 90.0,
+      "lng": 130.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:90,140": {
+      "lat": 90.0,
+      "lng": 140.0,
+      "tz_name": "Etc/GMT-9",
+      "tz_names": [
+        "Etc/GMT-9"
+      ],
+      "utc_offset": 32400,
+      "covered": true
+    },
+    "grid:90,150": {
+      "lat": 90.0,
+      "lng": 150.0,
+      "tz_name": "Etc/GMT-10",
+      "tz_names": [
+        "Etc/GMT-10"
+      ],
+      "utc_offset": 36000,
+      "covered": true
+    },
+    "grid:90,160": {
+      "lat": 90.0,
+      "lng": 160.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:90,170": {
+      "lat": 90.0,
+      "lng": 170.0,
+      "tz_name": "Etc/GMT-11",
+      "tz_names": [
+        "Etc/GMT-11"
+      ],
+      "utc_offset": 39600,
+      "covered": true
+    },
+    "grid:90,180": {
+      "lat": 90.0,
+      "lng": 180.0,
+      "tz_name": "Etc/GMT-12",
+      "tz_names": [
+        "Etc/GMT-12"
+      ],
+      "utc_offset": 43200,
+      "covered": true
+    }
+  }
+}

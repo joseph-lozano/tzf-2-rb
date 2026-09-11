@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+export PATH="${HOME}/.cargo/bin:${PATH}"
+bundle exec rake compile
+bundle exec rake spec
+bundle exec ruby bin/differential
+bundle exec ruby bin/measure

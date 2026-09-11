@@ -1,0 +1,15 @@
+tzf2
+Copyright 2026 Joseph Lozano
+
+This product includes software from tzf-rs (MIT), copyright ringsaturn.
+See https://github.com/ringsaturn/tzf-rs
+
+Embedded timezone boundary data comes from tzf-dist, which redistributes
+processed data from evansiroky/timezone-boundary-builder. That database is
+licensed under the Open Database License (ODbL) v1.0. See LICENSE_DATA.
+
+Source database:
+https://github.com/evansiroky/timezone-boundary-builder
+
+Processed distribution:
+https://github.com/ringsaturn/tzf-dist

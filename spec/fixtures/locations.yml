@@ -1,0 +1,7 @@
+locations:
+  point_nemo:
+    kind: ocean
+    lat: -48.876667
+    lng: -123.393333
+    tz_name: Etc/GMT+8
+    tz_names: [Etc/GMT+8]
