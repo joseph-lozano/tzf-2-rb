@@ -121,11 +121,9 @@ bundle exec rake differential
 
 Specs cover major cities, ocean zones including Point Nemo, polar and antimeridian points, shared borders, latitude/longitude order, invalid input, and thread safety.
 
-A 10-degree world grid is looked up in a standalone Rust binary (`crates/grid_parity`) and again through `TZF.raw_tz_name` / `TZF.raw_tz_names`. The answers must match, including empty engine results. That checks the Ruby wrapper against tzf-rs, not against a pinned Ruby table.
+A 10-degree world grid and a 0.1-degree world grid are looked up in a standalone Rust binary (`crates/grid_parity`) and again through `TZF.raw_tz_name` / `TZF.raw_tz_names`. The answers must match, including empty engine results. That checks the Ruby wrapper against tzf-rs, not against a pinned Ruby table.
 
 The differential suite compares the current engine to `spec/fixtures/differential_baseline.json`. It reports timezone-id changes, UTC-offset changes at `2026-01-15T12:00:00Z`, and points that gained or lost coverage.
-
-`bundle exec rake measure` writes init time, query time, RSS, and package size to `tmp/measure.json`.
 
 ## Rollback
 
