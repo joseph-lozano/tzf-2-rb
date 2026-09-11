@@ -1,0 +1,116 @@
+# First publish: https://rubygems.org/profile/oidc/pending_trusted_publishers
+# Gem name: tzf2
+# Repository owner: joseph-lozano
+# Repository name: tzf-2-rb
+# Workflow filename: release.yml
+# Environment: (leave blank)
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Push gems to RubyGems.org and tag the version
+        type: boolean
+        default: true
+
+jobs:
+  native_gem:
+    name: Build ${{ matrix.platform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - x86_64-linux
+          - aarch64-linux
+          - arm64-darwin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oxidize-rb/actions/setup-ruby-and-rust@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+          cargo-cache: true
+          cargo-vendor: true
+          cache-version: v1-${{ matrix.platform }}
+      - name: Cross-compile native gem
+        run: >
+          bundle exec rb-sys-dock
+          --platform ${{ matrix.platform }}
+          --ruby-versions "3.2,3.3,3.4,4.0"
+          --mount-toolchains
+          --build
+      - uses: actions/upload-artifact@v7
+        with:
+          name: gem-${{ matrix.platform }}
+          path: pkg/*-${{ matrix.platform }}.gem
+
+  verify:
+    name: Install ${{ matrix.platform }} / ${{ matrix.os }}
+    needs: native_gem
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: x86_64-linux
+            os: ubuntu-latest
+          - platform: aarch64-linux
+            os: ubuntu-24.04-arm
+          - platform: arm64-darwin
+            os: macos-latest
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: gem-${{ matrix.platform }}
+          path: pkg
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+      - name: Install precompiled gem and look up New York
+        run: |
+          gem=$(ls pkg/*.gem)
+          gem install --local --verbose "$gem"
+          ruby -e 'require "tzf2"; abort "wrong zone" unless TZF.tz_name(40.7128, -74.0060) == "America/New_York"'
+
+  publish:
+    name: Push gem to RubyGems.org
+    needs: [native_gem, verify]
+    if: ${{ inputs.publish }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      - name: Record version
+        run: |
+          version=$(ruby -e 'require_relative "lib/tzf2/version"; puts TZF::VERSION')
+          echo "APP_VERSION=$version" >> "$GITHUB_ENV"
+      - uses: rubygems/release-gem@v1
+      - uses: actions/download-artifact@v8
+        with:
+          path: artifacts
+          pattern: gem-*
+      - name: Push platform gems
+        run: |
+          set -euo pipefail
+          mkdir -p pkg
+          find artifacts -name "*.gem" -exec mv {} pkg/ \;
+          shopt -s nullglob
+          for gem in pkg/tzf2-*-*.gem; do
+            gem push "$gem"
+          done
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: pkg/*.gem
+          generateReleaseNotes: true
+          skipIfReleaseExists: true
+          tag: v${{ env.APP_VERSION }}

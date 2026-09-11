@@ -12,3 +12,5 @@ Public API:
 - `TZF.engine_version`
 
 In-range points with no covering polygon raise `TZF::UncoveredCoordinateError`. The gem does not invent a fallback zone.
+
+Precompiled native gems ship for `x86_64-linux`, `aarch64-linux`, and `arm64-darwin`. Other platforms compile from source.
