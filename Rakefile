@@ -12,6 +12,7 @@ RbSys::ExtensionTask.new("tzf2", GEMSPEC) do |ext|
   ext.cross_platform = %w[
     x86_64-linux
     aarch64-linux
+    x86_64-darwin
     arm64-darwin
   ]
 end

@@ -8,7 +8,7 @@ This gem is a drop-in successor to [`tzf`](https://github.com/HarlemSquirrel/tzf
 
 You need Ruby 3.2 or newer (including 4.0).
 
-Precompiled native gems ship for `x86_64-linux`, `aarch64-linux`, and `arm64-darwin`. Intel Mac and other platforms compile from source and need clang plus Rust 1.88 or newer.
+Precompiled native gems ship for `x86_64-linux`, `aarch64-linux`, `x86_64-darwin`, and `arm64-darwin`. Other platforms compile from source and need clang plus Rust 1.88 or newer.
 
 ```ruby
 # Gemfile
@@ -139,7 +139,7 @@ To go back to HarlemSquirrel's gem, restore `gem "tzf"` and `require "tzf"`. The
 
 CI compiles and tests Ruby 3.2, 3.3, 3.4, and 4.0 on Ubuntu, plus Ruby 3.4 on `ubuntu-24.04-arm`.
 
-Release builds precompiled gems for Linux x86_64, Linux ARM64, and Apple Silicon. Intel Mac installs compile from source. Windows is not supported.
+Release builds precompiled gems for Linux x86_64, Linux ARM64, Intel Mac, and Apple Silicon. Windows is not supported.
 
 ## License
 
