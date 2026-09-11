@@ -38,3 +38,20 @@ jobs:
           bundler-cache: true
       - run: bundle exec rake
       - run: bundle exec rake differential
+
+  gem-install:
+    name: Install built gem / Ubuntu 3.4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+      - name: Build and install the packaged gem
+        run: |
+          gem build tzf2.gemspec
+          gem unpack tzf2-0.0.1.gem --target /tmp/tzf2-unpacked
+          test ! -e /tmp/tzf2-unpacked/tzf2-0.0.1/crates
+          gem install --verbose tzf2-0.0.1.gem
+          ruby -e 'require "tzf2"; abort "wrong zone" unless TZF.tz_name(40.7128, -74.0060) == "America/New_York"'

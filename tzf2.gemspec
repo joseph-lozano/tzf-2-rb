@@ -25,19 +25,25 @@ Gem::Specification.new do |spec|
   spec.metadata["rubygems_mfa_required"] = "true"
   spec.metadata["allowed_push_host"] = "do-not-publish.invalid"
 
-  spec.files = Dir[
-    "ext/**/*",
-    "lib/**/*.rb",
-    "sig/**/*.rbs",
-    "Cargo.lock",
-    "Cargo.toml",
-    "LICENSE",
-    "LICENSE_DATA",
-    "NOTICE",
-    "README.md",
-    "CHANGELOG.md",
-    "tzf2.gemspec"
-  ].select { |path| File.file?(path) }
+  spec.files = %w[
+    CHANGELOG.md
+    Cargo.lock
+    Cargo.toml
+    LICENSE
+    LICENSE_DATA
+    NOTICE
+    README.md
+    ext/tzf2/Cargo.toml
+    ext/tzf2/extconf.rb
+    ext/tzf2/src/lib.rs
+    lib/tzf.rb
+    lib/tzf2.rb
+    lib/tzf2/coordinates.rb
+    lib/tzf2/errors.rb
+    lib/tzf2/version.rb
+    sig/tzf.rbs
+    tzf2.gemspec
+  ]
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]

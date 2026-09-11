@@ -7,8 +7,8 @@ module TZF
   class Differential
     INSTANT = Time.utc(2026, 1, 15, 12, 0, 0)
     GRID_STEP = 10
-    BASELINE_PATH = File.expand_path("../../spec/fixtures/differential_baseline.json", __dir__)
-    LOCATIONS_PATH = File.expand_path("../../spec/fixtures/locations.yml", __dir__)
+    BASELINE_PATH = File.expand_path("../fixtures/differential_baseline.json", __dir__)
+    LOCATIONS_PATH = File.expand_path("../fixtures/locations.yml", __dir__)
 
     Sample = Struct.new(:id, :lat, :lng, :tz_name, :tz_names, :utc_offset, :covered, keyword_init: true)
 
@@ -125,6 +125,9 @@ module TZF
           end
           if prior["tz_name"] != now["tz_name"]
             changes << Change.new(id: id, kind: "timezone_id", before: prior["tz_name"], after: now["tz_name"])
+          end
+          if prior["tz_names"] != now["tz_names"]
+            changes << Change.new(id: id, kind: "timezone_names", before: prior["tz_names"], after: now["tz_names"])
           end
           if prior["utc_offset"] != now["utc_offset"]
             changes << Change.new(id: id, kind: "utc_offset", before: prior["utc_offset"], after: now["utc_offset"])

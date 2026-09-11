@@ -107,7 +107,7 @@ Pin all three when you record a production lookup result.
 2. Run `cargo update -p tzf-rs` and `bundle exec rake compile`.
 3. Run `bundle exec rake spec`.
 4. Run `bundle exec ruby bin/differential`.
-5. If the report lists timezone-id, UTC-offset, newly covered, or uncovered points, decide whether the new data is intended.
+5. If the report lists timezone-id, timezone-names, UTC-offset, newly covered, or uncovered points, decide whether the new data is intended.
 6. To accept the new table, run `bundle exec rake differential:write` and update `spec/fixtures/locations.yml`.
 7. Set `TZF.engine_version` in `ext/tzf2/src/lib.rs` to the new crate version.
 
@@ -123,7 +123,7 @@ Specs cover major cities, ocean zones including Point Nemo, polar and antimeridi
 
 A 10-degree world grid and a 0.1-degree world grid are looked up in a standalone Rust binary (`crates/grid_parity`) and again through `TZF.raw_tz_name` / `TZF.raw_tz_names`. The answers must match, including empty engine results. That checks the Ruby wrapper against tzf-rs, not against a pinned Ruby table.
 
-The differential suite compares the current engine to `spec/fixtures/differential_baseline.json`. It reports timezone-id changes, UTC-offset changes at `2026-01-15T12:00:00Z`, and points that gained or lost coverage.
+The differential suite compares the current engine to `spec/fixtures/differential_baseline.json`. It reports timezone-id changes, all-match list changes, UTC-offset changes at `2026-01-15T12:00:00Z`, and points that gained or lost coverage.
 
 ## Rollback
 

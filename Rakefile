@@ -18,7 +18,11 @@ end
 
 desc "Build the standalone tzf-rs grid walker"
 task :grid_parity_bin do
-  sh "cargo", "build", "--quiet", "--release", "--bin", "grid_parity"
+  target = File.expand_path("target", __dir__)
+  sh "env", "CARGO_TARGET_DIR=#{target}",
+     "cargo", "build", "--quiet", "--release",
+     "--manifest-path", "crates/grid_parity/Cargo.toml",
+     "--bin", "grid_parity"
 end
 
 RSpec::Core::RakeTask.new(:spec)
@@ -27,11 +31,6 @@ task spec: %i[compile grid_parity_bin]
 desc "Compare the current lookup table to the committed differential baseline"
 task differential: :compile do
   ruby "bin/differential"
-end
-
-desc "Print init time, query time, RSS, and package size"
-task measure: :compile do
-  ruby "bin/measure"
 end
 
 desc "Write a fresh differential baseline from the current engine"

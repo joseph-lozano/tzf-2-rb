@@ -15,6 +15,7 @@
 mkmf.log
 .rspec_status
 /target
+/crates/grid_parity/target
 *.gem
 /ext/tzf2/target
 /ext/tzf2/Makefile

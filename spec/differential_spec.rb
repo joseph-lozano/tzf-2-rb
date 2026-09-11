@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../lib/tzf2/differential"
+require_relative "support/differential"
 
 RSpec.describe TZF::Differential do
   it "matches the committed baseline" do
@@ -28,6 +28,32 @@ RSpec.describe TZF::Differential do
     }
     report = described_class::Report.new(baseline, current).tap(&:compute)
     expect(report.changes.map(&:kind)).to eq(["timezone_id"])
+  end
+
+  it "classifies a tz_names change when tz_name stays the same" do
+    baseline = {
+      "points" => {
+        "named:overlap" => {
+          "lat" => 44.04,
+          "lng" => 87.416,
+          "tz_name" => "Asia/Shanghai",
+          "tz_names" => ["Asia/Shanghai", "Asia/Urumqi"],
+          "utc_offset" => 28_800,
+          "covered" => true
+        }
+      }
+    }
+    current = {
+      "points" => {
+        "named:overlap" => baseline["points"]["named:overlap"].merge(
+          "tz_names" => ["Asia/Shanghai"]
+        )
+      }
+    }
+    report = described_class::Report.new(baseline, current).tap(&:compute)
+    expect(report.changes.map(&:kind)).to eq(["timezone_names"])
+    expect(report.changes.first.before).to eq(["Asia/Shanghai", "Asia/Urumqi"])
+    expect(report.changes.first.after).to eq(["Asia/Shanghai"])
   end
 
   it "classifies newly covered and uncovered points" do
