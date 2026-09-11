@@ -1,3 +1,3 @@
 [workspace]
-members = ["./ext/tzf2"]
+members = ["./ext/tzf2", "./crates/grid_parity"]
 resolver = "2"

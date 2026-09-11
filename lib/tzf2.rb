@@ -17,16 +17,17 @@ module TZF
     def tz_name(latitude, longitude)
       coords = Coordinates.parse(latitude, longitude)
       name = raw_tz_name(coords.latitude, coords.longitude)
-      if name.empty?
-        raise UncoveredCoordinateError,
-              "no timezone covers latitude #{coords.latitude}, longitude #{coords.longitude}"
-      end
+      raise uncovered_error(coords) if name.empty?
+
       name
     end
 
     def tz_names(latitude, longitude)
       coords = Coordinates.parse(latitude, longitude)
-      raw_tz_names(coords.latitude, coords.longitude)
+      names = raw_tz_names(coords.latitude, coords.longitude)
+      raise uncovered_error(coords) if names.empty?
+
+      names
     end
 
     def data_version
@@ -39,6 +40,14 @@ module TZF
 
     def timezone_names
       raw_timezone_names
+    end
+
+    private
+
+    def uncovered_error(coords)
+      UncoveredCoordinateError.new(
+        "no timezone covers latitude #{coords.latitude}, longitude #{coords.longitude}"
+      )
     end
   end
 end

@@ -4,7 +4,7 @@ require "support/locations"
 
 RSpec.describe TZF do
   it "reports a gem version" do
-    expect(TZF::VERSION).to eq("0.1.0")
+    expect(TZF::VERSION).to eq("0.0.1")
   end
 
   it "reports the tzf-rs engine version" do

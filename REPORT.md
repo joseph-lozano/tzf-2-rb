@@ -1,6 +1,6 @@
 # tzf2 verification report
 
-Measured on 2026-09-11 on this machine. Ruby 3.4.4, arm64 Darwin, rustc 1.98.1. Other Ruby and OS combinations are configured in CI and were not run here.
+Measured on 2026-09-11 on this machine. Ruby 3.4.4, arm64 Darwin, rustc 1.98.1. Linux and other Ruby versions are configured in CI and were not run here.
 
 ## Predicate
 
@@ -29,7 +29,7 @@ Not published to RubyGems.
 
 ## Supported artifacts
 
-- Source gem `tzf2` 0.1.0
+- Source gem `tzf2` 0.0.1
 - Native crate `ext/tzf2` linked against tzf-rs 2.0.0 and tzf-dist `0.0.2026-c-tzb1`
 - `spec/fixtures/locations.yml` cities, ocean, polar, and antimeridian points
 - `spec/fixtures/differential_baseline.json` (those points plus a 10-degree global grid)
@@ -55,6 +55,7 @@ tzf-rs documents DefaultFinder open at about 13 ms and about 44 MiB RSS on an M3
 ## Remaining risks
 
 - Lite boundary data can disagree with full-precision polygons inside about 111 m of a border.
+- Lite, full, and timezone-boundary-builder all have hairline uncovered slivers. `TZF.tz_name` / `TZF.tz_names` raise `UncoveredCoordinateError`; the application owns any fallback.
 - First install needs network access to RubyGems and crates.io. Later lookups do not.
 - Platform gems are not built. Each host compiles Rust at install time and needs clang plus Rust 1.88 or newer.
 - Windows is not in CI.

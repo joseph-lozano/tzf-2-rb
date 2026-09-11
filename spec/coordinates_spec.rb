@@ -70,5 +70,50 @@ RSpec.describe TZF do
       expect { described_class.tz_name(0, 0) }
         .to raise_error(TZF::UncoveredCoordinateError, /no timezone covers latitude 0.0, longitude 0.0/)
     end
+
+    it "raises UncoveredCoordinateError when tz_names has no matches" do
+      allow(described_class).to receive(:raw_tz_names).and_return([])
+      expect { described_class.tz_names(0, 0) }
+        .to raise_error(TZF::UncoveredCoordinateError, /no timezone covers latitude 0.0, longitude 0.0/)
+    end
+  end
+
+  describe "uncovered slivers" do
+    # Lite/TBB hairline gaps found on a 0.1° walk. A data upgrade may close them.
+    KNOWN_SLIVERS = [
+      [-70.6, -14.7],
+      [-66.2, 82.6],
+      [-65.6, 84.3],
+      [-54.1, -36.1],
+      [-50.3, -68.0]
+    ].freeze
+
+    def known_sliver
+      KNOWN_SLIVERS.find { |lat, lng| described_class.raw_tz_name(lat, lng).empty? }
+    end
+
+    it "raises UncoveredCoordinateError from tz_name on a live engine miss" do
+      hole = known_sliver
+      skip "bundled data covers the known slivers" unless hole
+
+      expect { described_class.tz_name(*hole) }
+        .to raise_error(TZF::UncoveredCoordinateError, /no timezone covers latitude #{hole[0]}, longitude #{hole[1]}/)
+    end
+
+    it "raises UncoveredCoordinateError from tz_names on a live engine miss" do
+      hole = known_sliver
+      skip "bundled data covers the known slivers" unless hole
+
+      expect { described_class.tz_names(*hole) }
+        .to raise_error(TZF::UncoveredCoordinateError)
+    end
+
+    it "does not raise from the raw engine methods on a miss" do
+      hole = known_sliver
+      skip "bundled data covers the known slivers" unless hole
+
+      expect(described_class.raw_tz_name(*hole)).to eq("")
+      expect(described_class.raw_tz_names(*hole)).to eq([])
+    end
   end
 end

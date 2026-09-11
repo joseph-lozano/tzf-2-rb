@@ -6,7 +6,7 @@ This gem is a drop-in successor to [`tzf`](https://github.com/HarlemSquirrel/tzf
 
 ## Install
 
-You need Ruby 3.2 or newer, clang, and Rust 1.88 or newer. Install compiles the native extension from source.
+You need Ruby 3.2 or newer (including 4.0), clang, and Rust 1.88 or newer. Install compiles the native extension from source.
 
 ```ruby
 # Gemfile
@@ -52,13 +52,24 @@ TZF.tz_name(91, 0)
 # TZF::InvalidCoordinatesError: latitude 91.0 is outside -90..90
 ```
 
-A valid point with no covering polygon raises `TZF::UncoveredCoordinateError`. The bundled ocean data covers the globe, so that error should not appear for in-range coordinates.
+A valid point with no covering polygon raises `TZF::UncoveredCoordinateError`. Rescue that in the application if you need a fallback. This gem does not guess a neighbor zone.
+
+```ruby
+TZF.tz_name(-54.1, -36.1)
+# TZF::UncoveredCoordinateError: no timezone covers latitude -54.1, longitude -36.1
+```
+
+`raw_tz_name` and `raw_tz_names` return the engine result without raising (`""` / `[]` on a miss).
 
 ## Global coverage
 
-The embedded dataset is timezone-boundary-builder `timezones-with-oceans` as packaged by tzf-dist release `2026c`. That product includes land zones, territorial waters, polar regions, and open-ocean `Etc/GMT*` zones.
+The embedded dataset is timezone-boundary-builder `timezones-with-oceans` as packaged by tzf-dist release `2026c`. That product includes land zones, territorial waters, polar regions, and open-ocean `Etc/GMT*` zones. It does not tile the sphere without gaps.
 
-This release reports 444 timezone names. A 10-degree grid over the whole globe is covered in `spec/fixtures/differential_baseline.json`.
+Lite simplification and a few source/encoding slivers leave hairline holes. A 10-degree grid is fully covered in `spec/fixtures/differential_baseline.json`. A 0.1-degree walk is not. Full-precision `tzf-dist` data closes some lite holes and still misses others.
+
+This gem returns `UncoveredCoordinateError` on those points. It does not snap to a neighbor.
+
+This release reports 444 timezone names.
 
 The default dataset is the lite `.tzb` file. Simplified boundaries stay within about 111 m of the full-precision border. See the [tzf-rs accuracy notes](https://github.com/ringsaturn/tzf-rs#accuracy).
 
@@ -110,6 +121,8 @@ bundle exec rake differential
 
 Specs cover major cities, ocean zones including Point Nemo, polar and antimeridian points, shared borders, latitude/longitude order, invalid input, and thread safety.
 
+A 10-degree world grid is looked up in a standalone Rust binary (`crates/grid_parity`) and again through `TZF.raw_tz_name` / `TZF.raw_tz_names`. The answers must match, including empty engine results. That checks the Ruby wrapper against tzf-rs, not against a pinned Ruby table.
+
 The differential suite compares the current engine to `spec/fixtures/differential_baseline.json`. It reports timezone-id changes, UTC-offset changes at `2026-01-15T12:00:00Z`, and points that gained or lost coverage.
 
 `bundle exec rake measure` writes init time, query time, RSS, and package size to `tmp/measure.json`.
@@ -126,7 +139,7 @@ To go back to HarlemSquirrel's gem, restore `gem "tzf"` and `require "tzf"`. The
 
 ## Supported platforms
 
-CI compiles and tests Ruby 3.2, 3.3, and 3.4 on Ubuntu and macOS, plus Ruby 3.4 on `ubuntu-24.04-arm`. Apple Silicon is the macOS runner.
+CI compiles and tests Ruby 3.2, 3.3, 3.4, and 4.0 on Ubuntu, plus Ruby 3.4 on `ubuntu-24.04-arm`. macOS is supported at install time (compile from source) and is exercised on developer machines, not in CI.
 
 Windows is not supported.
 

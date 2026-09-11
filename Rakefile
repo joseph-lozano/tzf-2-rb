@@ -16,7 +16,13 @@ RbSys::ExtensionTask.new("tzf2", GEMSPEC) do |ext|
   ]
 end
 
+desc "Build the standalone tzf-rs grid walker"
+task :grid_parity_bin do
+  sh "cargo", "build", "--quiet", "--release", "--bin", "grid_parity"
+end
+
 RSpec::Core::RakeTask.new(:spec)
+task spec: %i[compile grid_parity_bin]
 
 desc "Compare the current lookup table to the committed differential baseline"
 task differential: :compile do
