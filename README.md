@@ -137,7 +137,7 @@ To go back to HarlemSquirrel's gem, restore `gem "tzf"` and `require "tzf"`. The
 
 ## Supported platforms
 
-CI compiles and tests Ruby 3.2, 3.3, 3.4, and 4.0 on Ubuntu, plus Ruby 3.4 on `ubuntu-24.04-arm` and `macos-15-intel`.
+CI compiles and tests Ruby 3.2, 3.3, 3.4, and 4.0 on Ubuntu, plus Ruby 3.4 on `ubuntu-24.04-arm`, `macos-15-intel`, and `macos-latest`.
 
 Release builds precompiled gems for Linux x86_64, Linux ARM64, Intel Mac, and Apple Silicon. Windows is not supported.
 
