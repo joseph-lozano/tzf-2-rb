@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "tzf2"
+require_relative "../spec/support/differential"
+
+write = ARGV.delete("--write")
+path = ARGV.shift || TZF::Differential::BASELINE_PATH
+
+if write
+  TZF::Differential.write_baseline(path)
+  warn "wrote #{path}"
+  exit 0
+end
+
+report = TZF::Differential.compare(path)
+puts report
+exit(report.clean? ? 0 : 1)

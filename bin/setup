@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+if ! command -v rustc >/dev/null; then
+  echo "rustc is required (tzf-rs 2 needs Rust 1.88 or newer)" >&2
+  exit 1
+fi
+
+bundle install
+bundle exec rake compile

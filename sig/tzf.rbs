@@ -1,0 +1,26 @@
+module TZF
+  VERSION: String
+
+  class Error < StandardError
+  end
+
+  class InvalidCoordinatesError < Error
+  end
+
+  class UncoveredCoordinateError < Error
+  end
+
+  class Coordinates
+    attr_reader latitude: Float
+    attr_reader longitude: Float
+
+    def self.parse: (Numeric latitude, Numeric longitude) -> Coordinates
+    def initialize: (Numeric latitude, Numeric longitude) -> void
+  end
+
+  def self.tz_name: (Numeric latitude, Numeric longitude) -> String
+  def self.tz_names: (Numeric latitude, Numeric longitude) -> Array[String]
+  def self.data_version: () -> String
+  def self.engine_version: () -> String
+  def self.timezone_names: () -> Array[String]
+end

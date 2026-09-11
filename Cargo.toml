@@ -1,0 +1,4 @@
+[workspace]
+members = ["./ext/tzf2"]
+exclude = ["./crates/grid_parity"]
+resolver = "2"
